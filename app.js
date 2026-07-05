@@ -321,6 +321,7 @@
       selected: {},
       graded: false,
       results: [],
+      distractorHistory: [],
       lastOptions: { ...options },
       isWeakMode,
     };
@@ -609,17 +610,33 @@
   }
 
   function candidateWords(word) {
-    const sameCategory = words
-      .filter((item) => item.id !== word.id && item.category === word.category)
-      .sort((a, b) => Math.abs(a.difficulty - word.difficulty) - Math.abs(b.difficulty - word.difficulty));
-    const fallback = words.filter((item) => item.id !== word.id && item.category !== word.category);
+    const recentIds = new Set(quiz?.distractorHistory || []);
+    const sameCategory = shuffle(words.filter((item) => item.id !== word.id && item.category === word.category));
+    const nearDifficulty = shuffle(
+      words.filter((item) => item.id !== word.id && item.category !== word.category && Math.abs(item.difficulty - word.difficulty) <= 1),
+    );
+    const anyCategory = shuffle(words.filter((item) => item.id !== word.id));
     const candidates = [];
-    [...sameCategory, ...shuffle(fallback)].forEach((item) => {
-      if (candidates.length < 4 && !candidates.some((candidate) => candidate.id === item.id)) {
-        candidates.push(item);
+
+    addRandomCandidates(candidates, sameCategory.filter((item) => !recentIds.has(item.id)), 2);
+    addRandomCandidates(candidates, nearDifficulty.filter((item) => !recentIds.has(item.id)), 1);
+    addRandomCandidates(candidates, anyCategory.filter((item) => !recentIds.has(item.id)), 4 - candidates.length);
+    addRandomCandidates(candidates, anyCategory, 4 - candidates.length);
+
+    const distractors = candidates.slice(0, 4);
+    if (quiz?.distractorHistory) {
+      quiz.distractorHistory = [...quiz.distractorHistory, ...distractors.map((item) => item.id)].slice(-24);
+    }
+    return [word, ...shuffle(distractors)].slice(0, 5);
+  }
+
+  function addRandomCandidates(target, source, count) {
+    const targetLength = target.length + Math.max(count, 0);
+    source.forEach((item) => {
+      if (target.length < targetLength && !target.some((candidate) => candidate.id === item.id)) {
+        target.push(item);
       }
     });
-    return [word, ...shuffle(candidates)].slice(0, 5);
   }
 
   function filterWords(category) {
