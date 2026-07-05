@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3言語単語学習</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell" aria-label="3言語単語学習アプリ">
+      <section class="home-screen view" id="homeView">
+        <header class="top-bar">
+          <div>
+            <p class="eyebrow">日本語・英語・韓国語</p>
+            <h1>3言語単語学習</h1>
+          </div>
+          <button class="icon-button" id="settingsButton" type="button" aria-label="設定を開く">
+            <span class="icon-gear" aria-hidden="true"></span>
+          </button>
+        </header>
+
+        <section class="profile-panel" id="profilePanel" aria-label="利用者情報">
+          <div class="profile-copy">
+            <p class="welcome" id="welcomeText">こんにちは、ゲストさん</p>
+            <p class="today-note" id="todayNote">今日は10問から軽く始めましょう。</p>
+          </div>
+          <div class="character-frame" id="characterFrame" aria-live="polite">
+            <img
+              src="assets/characters-concept-traditional.png"
+              id="characterImage"
+              alt="選択中の基準言語を担当するキャラクター"
+            />
+            <span id="characterLabel">英語担当</span>
+          </div>
+        </section>
+
+        <section class="quick-status" aria-label="学習状況">
+          <article>
+            <span class="status-value" id="totalStudyCount">0</span>
+            <span class="status-label">学習回数</span>
+          </article>
+          <article>
+            <span class="status-value" id="totalCorrectRate">--</span>
+            <span class="status-label">正答率</span>
+          </article>
+          <article>
+            <span class="status-value" id="weakWordCount">0</span>
+            <span class="status-label">苦手単語</span>
+          </article>
+        </section>
+
+        <nav class="primary-actions" aria-label="メインメニュー">
+          <button class="action-button primary" id="startButton" type="button">
+            <span class="action-icon play-icon" aria-hidden="true"></span>
+            <span>
+              <strong>学習を始める</strong>
+              <small>条件を選んでクイズへ</small>
+            </span>
+          </button>
+          <button class="action-button" id="weakButton" type="button">
+            <span class="action-icon target-icon" aria-hidden="true"></span>
+            <span>
+              <strong>苦手問題</strong>
+              <small>間違えた単語を復習</small>
+            </span>
+          </button>
+          <button class="action-button" id="resultButton" type="button">
+            <span class="action-icon chart-icon" aria-hidden="true"></span>
+            <span>
+              <strong>成績を見る</strong>
+              <small>正答率と履歴を確認</small>
+            </span>
+          </button>
+        </nav>
+      </section>
+
+      <section class="setup-screen view hidden" id="setupView" aria-label="学習条件選択">
+        <header class="sub-header">
+          <button class="back-button" id="setupBackButton" type="button">戻る</button>
+          <div>
+            <p class="eyebrow">学習条件</p>
+            <h1>出題設定</h1>
+          </div>
+        </header>
+
+        <form class="setup-form" id="setupForm">
+          <label class="field">
+            <span>基準言語</span>
+            <select id="quizBaseLanguageSelect" name="baseLanguage">
+              <option value="japanese">日本語</option>
+              <option value="english">英語</option>
+              <option value="korean">韓国語</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>出題数</span>
+            <select id="quizQuestionCountSelect" name="questionCount">
+              <option value="10">10問</option>
+              <option value="20">20問</option>
+              <option value="30">30問</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>分野</span>
+            <select id="quizCategorySelect" name="category">
+              <option value="all">すべて</option>
+              <option value="noun">名詞</option>
+              <option value="verb">動詞</option>
+              <option value="adjective">形容詞</option>
+              <option value="adverb">副詞</option>
+              <option value="expression">日常表現</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>回答言語数</span>
+            <select id="quizAnswerModeSelect" name="answerMode">
+              <option value="two">2言語</option>
+              <option value="one">1言語</option>
+            </select>
+          </label>
+
+          <label class="field hidden" id="quizSingleTargetField">
+            <span>回答する言語</span>
+            <select id="quizSingleTargetSelect" name="singleTargetLanguage"></select>
+          </label>
+
+          <button class="save-button" type="submit">この条件で始める</button>
+        </form>
+      </section>
+
+      <section class="weak-screen view hidden" id="weakView" aria-label="苦手問題">
+        <header class="sub-header">
+          <button class="back-button" id="weakBackButton" type="button">戻る</button>
+          <div>
+            <p class="eyebrow">復習</p>
+            <h1>苦手問題</h1>
+          </div>
+        </header>
+
+        <section class="stats-panel">
+          <h2>復習対象</h2>
+          <p class="weak-note" id="weakNote">苦手単語を読み込み中です。</p>
+          <div class="weak-word-list compact" id="weakPreviewList"></div>
+        </section>
+
+        <form class="setup-form" id="weakForm">
+          <label class="field">
+            <span>基準言語</span>
+            <select id="weakBaseLanguageSelect" name="baseLanguage">
+              <option value="japanese">日本語</option>
+              <option value="english">英語</option>
+              <option value="korean">韓国語</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>回答言語数</span>
+            <select id="weakAnswerModeSelect" name="answerMode">
+              <option value="two">2言語</option>
+              <option value="one">1言語</option>
+            </select>
+          </label>
+
+          <label class="field hidden" id="weakSingleTargetField">
+            <span>回答する言語</span>
+            <select id="weakSingleTargetSelect" name="singleTargetLanguage"></select>
+          </label>
+
+          <button class="save-button" id="weakStartButton" type="submit">苦手問題を始める</button>
+        </form>
+      </section>
+
+      <section class="quiz-screen view hidden" id="quizView" aria-label="問題出題">
+        <header class="quiz-header">
+          <button class="back-button" id="quizExitButton" type="button">終了</button>
+          <div class="quiz-progress">
+            <span id="quizProgressText">1 / 10</span>
+            <div class="progress-track" aria-hidden="true">
+              <div class="progress-bar" id="quizProgressBar"></div>
+            </div>
+          </div>
+        </header>
+
+        <section class="question-panel" aria-label="出題単語">
+          <div>
+            <p class="question-language" id="questionLanguage">英語</p>
+            <h2 id="questionWord">today</h2>
+          </div>
+          <button class="speak-button large" id="questionSpeakButton" type="button" aria-label="出題単語の発音を聴く">
+            音声
+          </button>
+          <button class="example-button" id="exampleButton" type="button">例文</button>
+        </section>
+
+        <section class="quiz-helper" id="quizHelper" aria-live="polite">
+          <div class="quiz-character" id="quizCharacter">
+            <img
+              src="assets/characters-concept-traditional.png"
+              id="quizCharacterImage"
+              alt="基準言語を担当するキャラクター"
+            />
+          </div>
+          <p id="quizMessage">回答言語から1つずつ選んでください。</p>
+        </section>
+
+        <section class="example-panel hidden" id="examplePanel" aria-live="polite"></section>
+
+        <section class="answer-columns compact" id="answerColumns" aria-label="回答候補"></section>
+
+        <button class="save-button quiz-submit" id="answerButton" type="button" disabled>回答する</button>
+        <button class="save-button quiz-submit hidden" id="nextQuestionButton" type="button">次の問題へ</button>
+      </section>
+
+      <section class="result-screen view hidden" id="resultView" aria-label="学習結果">
+        <header class="sub-header">
+          <button class="back-button" id="resultHomeButton" type="button">ホーム</button>
+          <div>
+            <p class="eyebrow">学習結果</p>
+            <h1>おつかれさま</h1>
+          </div>
+        </header>
+
+        <section class="result-summary">
+          <span class="result-rate" id="resultRate">0%</span>
+          <p id="resultText">0問中0問正解</p>
+        </section>
+
+        <section class="language-rates" id="languageRates" aria-label="言語別正答率"></section>
+
+        <section class="missed-list" id="missedList" aria-label="間違えた単語"></section>
+
+        <button class="save-button" id="retryButton" type="button">同じ条件でもう一度</button>
+      </section>
+
+      <section class="stats-screen view hidden" id="statsView" aria-label="成績">
+        <header class="sub-header">
+          <button class="back-button" id="statsHomeButton" type="button">ホーム</button>
+          <div>
+            <p class="eyebrow">成績管理</p>
+            <h1>成績を見る</h1>
+          </div>
+        </header>
+
+        <section class="stats-summary" aria-label="総合成績">
+          <article>
+            <span id="statsStudyCount">0</span>
+            <small>学習回数</small>
+          </article>
+          <article>
+            <span id="statsAnsweredCount">0</span>
+            <small>回答数</small>
+          </article>
+          <article>
+            <span id="statsCorrectRate">--</span>
+            <small>総合正答率</small>
+          </article>
+        </section>
+
+        <section class="stats-panel">
+          <h2>言語別成績</h2>
+          <div class="stats-language-list" id="statsLanguageList"></div>
+        </section>
+
+        <section class="stats-panel">
+          <h2>苦手単語</h2>
+          <div class="weak-word-list" id="statsWeakWordList"></div>
+        </section>
+
+        <button class="save-button secondary" id="resetStatsButton" type="button">成績をリセット</button>
+      </section>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <dialog class="settings-dialog" id="settingsDialog" aria-labelledby="settingsTitle">
+      <form method="dialog" class="settings-form" id="settingsForm">
+        <div class="dialog-header">
+          <h2 id="settingsTitle">設定</h2>
+          <button class="icon-button small" id="closeSettingsButton" value="cancel" type="submit" aria-label="閉じる">
+            <span class="icon-close" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <label class="field">
+          <span>利用者名</span>
+          <input id="userNameInput" name="userName" type="text" maxlength="20" autocomplete="name" />
+        </label>
+
+        <label class="field">
+          <span>初期基準言語</span>
+          <select id="baseLanguageSelect" name="baseLanguage">
+            <option value="japanese">日本語</option>
+            <option value="english">英語</option>
+            <option value="korean">韓国語</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>初期出題数</span>
+          <select id="questionCountSelect" name="questionCount">
+            <option value="10">10問</option>
+            <option value="20">20問</option>
+            <option value="30">30問</option>
+          </select>
+        </label>
+
+        <label class="toggle-row">
+          <span>
+            <strong>キャラクター表示</strong>
+            <small>OFFにすると画像とセリフ枠を表示しません</small>
+          </span>
+          <input id="characterVisibleInput" name="characterVisible" type="checkbox" />
+        </label>
+
+        <button class="save-button" value="default" type="submit">保存する</button>
+      </form>
+    </dialog>
+
+    <script src="data/words.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7035 @@
+﻿window.WORD_DATA = {
+    "version":  "1.0.0",
+    "generatedAt":  "2026-07-02T13:20:01+09:00",
+    "languages":  [
+                      "japanese",
+                      "english",
+                      "korean"
+                  ],
+    "categories":  [
+                       {
+                           "id":  "noun",
+                           "labelJa":  "名詞"
+                       },
+                       {
+                           "id":  "verb",
+                           "labelJa":  "動詞"
+                       },
+                       {
+                           "id":  "adjective",
+                           "labelJa":  "形容詞"
+                       },
+                       {
+                           "id":  "adverb",
+                           "labelJa":  "副詞"
+                       },
+                       {
+                           "id":  "expression",
+                           "labelJa":  "日常表現"
+                       }
+                   ],
+    "wordCount":  500,
+    "words":  [
+                  {
+                      "id":  "noun_001",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "今日",
+                      "english":  "today",
+                      "korean":  "오늘",
+                      "examples":  {
+                                       "english":  "Today I talk about \"today\".",
+                                       "korean":  "오늘은 \"오늘\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「今日」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_002",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "明日",
+                      "english":  "tomorrow",
+                      "korean":  "내일",
+                      "examples":  {
+                                       "english":  "Today I talk about \"tomorrow\".",
+                                       "korean":  "오늘은 \"내일\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「明日」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_003",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "昨日",
+                      "english":  "yesterday",
+                      "korean":  "어제",
+                      "examples":  {
+                                       "english":  "Today I talk about \"yesterday\".",
+                                       "korean":  "오늘은 \"어제\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「昨日」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_004",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "朝",
+                      "english":  "morning",
+                      "korean":  "아침",
+                      "examples":  {
+                                       "english":  "Today I talk about \"morning\".",
+                                       "korean":  "오늘은 \"아침\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「朝」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_005",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "昼",
+                      "english":  "noon",
+                      "korean":  "낮",
+                      "examples":  {
+                                       "english":  "Today I talk about \"noon\".",
+                                       "korean":  "오늘은 \"낮\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「昼」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_006",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "夜",
+                      "english":  "night",
+                      "korean":  "밤",
+                      "examples":  {
+                                       "english":  "Today I talk about \"night\".",
+                                       "korean":  "오늘은 \"밤\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「夜」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_007",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "時間",
+                      "english":  "time",
+                      "korean":  "시간",
+                      "examples":  {
+                                       "english":  "Today I talk about \"time\".",
+                                       "korean":  "오늘은 \"시간\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「時間」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_008",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "日",
+                      "english":  "day",
+                      "korean":  "날",
+                      "examples":  {
+                                       "english":  "Today I talk about \"day\".",
+                                       "korean":  "오늘은 \"날\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「日」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_009",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "週",
+                      "english":  "week",
+                      "korean":  "주",
+                      "examples":  {
+                                       "english":  "Today I talk about \"week\".",
+                                       "korean":  "오늘은 \"주\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「週」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_010",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "月",
+                      "english":  "month",
+                      "korean":  "달",
+                      "examples":  {
+                                       "english":  "Today I talk about \"month\".",
+                                       "korean":  "오늘은 \"달\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「月」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_011",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "年",
+                      "english":  "year",
+                      "korean":  "년",
+                      "examples":  {
+                                       "english":  "Today I talk about \"year\".",
+                                       "korean":  "오늘은 \"년\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「年」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_012",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "家",
+                      "english":  "home",
+                      "korean":  "집",
+                      "examples":  {
+                                       "english":  "Today I talk about \"home\".",
+                                       "korean":  "오늘은 \"집\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「家」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_013",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "部屋",
+                      "english":  "room",
+                      "korean":  "방",
+                      "examples":  {
+                                       "english":  "Today I talk about \"room\".",
+                                       "korean":  "오늘은 \"방\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「部屋」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_014",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "学校",
+                      "english":  "school",
+                      "korean":  "학교",
+                      "examples":  {
+                                       "english":  "Today I talk about \"school\".",
+                                       "korean":  "오늘은 \"학교\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「学校」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_015",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "会社",
+                      "english":  "company",
+                      "korean":  "회사",
+                      "examples":  {
+                                       "english":  "Today I talk about \"company\".",
+                                       "korean":  "오늘은 \"회사\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「会社」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_016",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "駅",
+                      "english":  "station",
+                      "korean":  "역",
+                      "examples":  {
+                                       "english":  "Today I talk about \"station\".",
+                                       "korean":  "오늘은 \"역\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「駅」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_017",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "店",
+                      "english":  "store",
+                      "korean":  "가게",
+                      "examples":  {
+                                       "english":  "Today I talk about \"store\".",
+                                       "korean":  "오늘은 \"가게\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「店」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_018",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "病院",
+                      "english":  "hospital",
+                      "korean":  "병원",
+                      "examples":  {
+                                       "english":  "Today I talk about \"hospital\".",
+                                       "korean":  "오늘은 \"병원\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「病院」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_019",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "銀行",
+                      "english":  "bank",
+                      "korean":  "은행",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bank\".",
+                                       "korean":  "오늘은 \"은행\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「銀行」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_020",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "郵便局",
+                      "english":  "post office",
+                      "korean":  "우체국",
+                      "examples":  {
+                                       "english":  "Today I talk about \"post office\".",
+                                       "korean":  "오늘은 \"우체국\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「郵便局」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_021",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "レストラン",
+                      "english":  "restaurant",
+                      "korean":  "식당",
+                      "examples":  {
+                                       "english":  "Today I talk about \"restaurant\".",
+                                       "korean":  "오늘은 \"식당\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「レストラン」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_022",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "カフェ",
+                      "english":  "cafe",
+                      "korean":  "카페",
+                      "examples":  {
+                                       "english":  "Today I talk about \"cafe\".",
+                                       "korean":  "오늘은 \"카페\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「カフェ」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_023",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "公園",
+                      "english":  "park",
+                      "korean":  "공원",
+                      "examples":  {
+                                       "english":  "Today I talk about \"park\".",
+                                       "korean":  "오늘은 \"공원\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「公園」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_024",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "道",
+                      "english":  "road",
+                      "korean":  "길",
+                      "examples":  {
+                                       "english":  "Today I talk about \"road\".",
+                                       "korean":  "오늘은 \"길\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「道」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_025",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "車",
+                      "english":  "car",
+                      "korean":  "자동차",
+                      "examples":  {
+                                       "english":  "Today I talk about \"car\".",
+                                       "korean":  "오늘은 \"자동차\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「車」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_026",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "電車",
+                      "english":  "train",
+                      "korean":  "전철",
+                      "examples":  {
+                                       "english":  "Today I talk about \"train\".",
+                                       "korean":  "오늘은 \"전철\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「電車」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_027",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "バス",
+                      "english":  "bus",
+                      "korean":  "버스",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bus\".",
+                                       "korean":  "오늘은 \"버스\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「バス」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_028",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "自転車",
+                      "english":  "bicycle",
+                      "korean":  "자전거",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bicycle\".",
+                                       "korean":  "오늘은 \"자전거\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「自転車」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_029",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "空港",
+                      "english":  "airport",
+                      "korean":  "공항",
+                      "examples":  {
+                                       "english":  "Today I talk about \"airport\".",
+                                       "korean":  "오늘은 \"공항\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「空港」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_030",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "飛行機",
+                      "english":  "airplane",
+                      "korean":  "비행기",
+                      "examples":  {
+                                       "english":  "Today I talk about \"airplane\".",
+                                       "korean":  "오늘은 \"비행기\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「飛行機」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_031",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "水",
+                      "english":  "water",
+                      "korean":  "물",
+                      "examples":  {
+                                       "english":  "Today I talk about \"water\".",
+                                       "korean":  "오늘은 \"물\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「水」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_032",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "お茶",
+                      "english":  "tea",
+                      "korean":  "차",
+                      "examples":  {
+                                       "english":  "Today I talk about \"tea\".",
+                                       "korean":  "오늘은 \"차\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「お茶」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_033",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "コーヒー",
+                      "english":  "coffee",
+                      "korean":  "커피",
+                      "examples":  {
+                                       "english":  "Today I talk about \"coffee\".",
+                                       "korean":  "오늘은 \"커피\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「コーヒー」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_034",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "ご飯",
+                      "english":  "rice",
+                      "korean":  "밥",
+                      "examples":  {
+                                       "english":  "Today I talk about \"rice\".",
+                                       "korean":  "오늘은 \"밥\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「ご飯」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_035",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "パン",
+                      "english":  "bread",
+                      "korean":  "빵",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bread\".",
+                                       "korean":  "오늘은 \"빵\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「パン」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_036",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "朝食",
+                      "english":  "breakfast",
+                      "korean":  "아침 식사",
+                      "examples":  {
+                                       "english":  "Today I talk about \"breakfast\".",
+                                       "korean":  "오늘은 \"아침 식사\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「朝食」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_037",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "昼食",
+                      "english":  "lunch",
+                      "korean":  "점심 식사",
+                      "examples":  {
+                                       "english":  "Today I talk about \"lunch\".",
+                                       "korean":  "오늘은 \"점심 식사\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「昼食」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_038",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "夕食",
+                      "english":  "dinner",
+                      "korean":  "저녁 식사",
+                      "examples":  {
+                                       "english":  "Today I talk about \"dinner\".",
+                                       "korean":  "오늘은 \"저녁 식사\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「夕食」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_039",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "果物",
+                      "english":  "fruit",
+                      "korean":  "과일",
+                      "examples":  {
+                                       "english":  "Today I talk about \"fruit\".",
+                                       "korean":  "오늘은 \"과일\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「果物」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_040",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "野菜",
+                      "english":  "vegetable",
+                      "korean":  "채소",
+                      "examples":  {
+                                       "english":  "Today I talk about \"vegetable\".",
+                                       "korean":  "오늘은 \"채소\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「野菜」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_041",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "肉",
+                      "english":  "meat",
+                      "korean":  "고기",
+                      "examples":  {
+                                       "english":  "Today I talk about \"meat\".",
+                                       "korean":  "오늘은 \"고기\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「肉」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_042",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "魚",
+                      "english":  "fish",
+                      "korean":  "생선",
+                      "examples":  {
+                                       "english":  "Today I talk about \"fish\".",
+                                       "korean":  "오늘은 \"생선\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「魚」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_043",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "卵",
+                      "english":  "egg",
+                      "korean":  "달걀",
+                      "examples":  {
+                                       "english":  "Today I talk about \"egg\".",
+                                       "korean":  "오늘은 \"달걀\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「卵」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_044",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "牛乳",
+                      "english":  "milk",
+                      "korean":  "우유",
+                      "examples":  {
+                                       "english":  "Today I talk about \"milk\".",
+                                       "korean":  "오늘은 \"우유\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「牛乳」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_045",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "服",
+                      "english":  "clothes",
+                      "korean":  "옷",
+                      "examples":  {
+                                       "english":  "Today I talk about \"clothes\".",
+                                       "korean":  "오늘은 \"옷\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「服」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_046",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "靴",
+                      "english":  "shoes",
+                      "korean":  "신발",
+                      "examples":  {
+                                       "english":  "Today I talk about \"shoes\".",
+                                       "korean":  "오늘은 \"신발\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「靴」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_047",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "バッグ",
+                      "english":  "bag",
+                      "korean":  "가방",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bag\".",
+                                       "korean":  "오늘은 \"가방\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「バッグ」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_048",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "財布",
+                      "english":  "wallet",
+                      "korean":  "지갑",
+                      "examples":  {
+                                       "english":  "Today I talk about \"wallet\".",
+                                       "korean":  "오늘은 \"지갑\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「財布」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_049",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "鍵",
+                      "english":  "key",
+                      "korean":  "열쇠",
+                      "examples":  {
+                                       "english":  "Today I talk about \"key\".",
+                                       "korean":  "오늘은 \"열쇠\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「鍵」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_050",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "電話",
+                      "english":  "phone",
+                      "korean":  "전화",
+                      "examples":  {
+                                       "english":  "Today I talk about \"phone\".",
+                                       "korean":  "오늘은 \"전화\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「電話」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_051",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "スマホ",
+                      "english":  "smartphone",
+                      "korean":  "스마트폰",
+                      "examples":  {
+                                       "english":  "Today I talk about \"smartphone\".",
+                                       "korean":  "오늘은 \"스마트폰\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「スマホ」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_052",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "パソコン",
+                      "english":  "computer",
+                      "korean":  "컴퓨터",
+                      "examples":  {
+                                       "english":  "Today I talk about \"computer\".",
+                                       "korean":  "오늘은 \"컴퓨터\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「パソコン」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_053",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "本",
+                      "english":  "book",
+                      "korean":  "책",
+                      "examples":  {
+                                       "english":  "Today I talk about \"book\".",
+                                       "korean":  "오늘은 \"책\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「本」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_054",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "ノート",
+                      "english":  "notebook",
+                      "korean":  "공책",
+                      "examples":  {
+                                       "english":  "Today I talk about \"notebook\".",
+                                       "korean":  "오늘은 \"공책\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「ノート」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_055",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "ペン",
+                      "english":  "pen",
+                      "korean":  "펜",
+                      "examples":  {
+                                       "english":  "Today I talk about \"pen\".",
+                                       "korean":  "오늘은 \"펜\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「ペン」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_056",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "机",
+                      "english":  "desk",
+                      "korean":  "책상",
+                      "examples":  {
+                                       "english":  "Today I talk about \"desk\".",
+                                       "korean":  "오늘은 \"책상\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「机」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_057",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "椅子",
+                      "english":  "chair",
+                      "korean":  "의자",
+                      "examples":  {
+                                       "english":  "Today I talk about \"chair\".",
+                                       "korean":  "오늘은 \"의자\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「椅子」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_058",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "窓",
+                      "english":  "window",
+                      "korean":  "창문",
+                      "examples":  {
+                                       "english":  "Today I talk about \"window\".",
+                                       "korean":  "오늘은 \"창문\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「窓」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_059",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "ドア",
+                      "english":  "door",
+                      "korean":  "문",
+                      "examples":  {
+                                       "english":  "Today I talk about \"door\".",
+                                       "korean":  "오늘은 \"문\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「ドア」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_060",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "風呂",
+                      "english":  "bath",
+                      "korean":  "목욕",
+                      "examples":  {
+                                       "english":  "Today I talk about \"bath\".",
+                                       "korean":  "오늘은 \"목욕\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「風呂」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_061",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "トイレ",
+                      "english":  "toilet",
+                      "korean":  "화장실",
+                      "examples":  {
+                                       "english":  "Today I talk about \"toilet\".",
+                                       "korean":  "오늘은 \"화장실\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「トイレ」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_062",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "台所",
+                      "english":  "kitchen",
+                      "korean":  "부엌",
+                      "examples":  {
+                                       "english":  "Today I talk about \"kitchen\".",
+                                       "korean":  "오늘은 \"부엌\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「台所」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_063",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "家族",
+                      "english":  "family",
+                      "korean":  "가족",
+                      "examples":  {
+                                       "english":  "Today I talk about \"family\".",
+                                       "korean":  "오늘은 \"가족\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「家族」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_064",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "友達",
+                      "english":  "friend",
+                      "korean":  "친구",
+                      "examples":  {
+                                       "english":  "Today I talk about \"friend\".",
+                                       "korean":  "오늘은 \"친구\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「友達」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_065",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "先生",
+                      "english":  "teacher",
+                      "korean":  "선생님",
+                      "examples":  {
+                                       "english":  "Today I talk about \"teacher\".",
+                                       "korean":  "오늘은 \"선생님\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「先生」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_066",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "学生",
+                      "english":  "student",
+                      "korean":  "학생",
+                      "examples":  {
+                                       "english":  "Today I talk about \"student\".",
+                                       "korean":  "오늘은 \"학생\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「学生」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_067",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "子ども",
+                      "english":  "child",
+                      "korean":  "아이",
+                      "examples":  {
+                                       "english":  "Today I talk about \"child\".",
+                                       "korean":  "오늘은 \"아이\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「子ども」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_068",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "母",
+                      "english":  "mother",
+                      "korean":  "어머니",
+                      "examples":  {
+                                       "english":  "Today I talk about \"mother\".",
+                                       "korean":  "오늘은 \"어머니\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「母」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_069",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "父",
+                      "english":  "father",
+                      "korean":  "아버지",
+                      "examples":  {
+                                       "english":  "Today I talk about \"father\".",
+                                       "korean":  "오늘은 \"아버지\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「父」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_070",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "兄",
+                      "english":  "older brother",
+                      "korean":  "형",
+                      "examples":  {
+                                       "english":  "Today I talk about \"older brother\".",
+                                       "korean":  "오늘은 \"형\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「兄」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_071",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "姉",
+                      "english":  "older sister",
+                      "korean":  "언니",
+                      "examples":  {
+                                       "english":  "Today I talk about \"older sister\".",
+                                       "korean":  "오늘은 \"언니\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「姉」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_072",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "名前",
+                      "english":  "name",
+                      "korean":  "이름",
+                      "examples":  {
+                                       "english":  "Today I talk about \"name\".",
+                                       "korean":  "오늘은 \"이름\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「名前」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_073",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "言葉",
+                      "english":  "word",
+                      "korean":  "말",
+                      "examples":  {
+                                       "english":  "Today I talk about \"word\".",
+                                       "korean":  "오늘은 \"말\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「言葉」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_074",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "日本語",
+                      "english":  "Japanese language",
+                      "korean":  "일본어",
+                      "examples":  {
+                                       "english":  "Today I talk about \"Japanese language\".",
+                                       "korean":  "오늘은 \"일본어\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「日本語」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_075",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "英語",
+                      "english":  "English language",
+                      "korean":  "영어",
+                      "examples":  {
+                                       "english":  "Today I talk about \"English language\".",
+                                       "korean":  "오늘은 \"영어\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「英語」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_076",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "韓国語",
+                      "english":  "Korean language",
+                      "korean":  "한국어",
+                      "examples":  {
+                                       "english":  "Today I talk about \"Korean language\".",
+                                       "korean":  "오늘은 \"한국어\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「韓国語」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_077",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "天気",
+                      "english":  "weather",
+                      "korean":  "날씨",
+                      "examples":  {
+                                       "english":  "Today I talk about \"weather\".",
+                                       "korean":  "오늘은 \"날씨\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「天気」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_078",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "雨",
+                      "english":  "rain",
+                      "korean":  "비",
+                      "examples":  {
+                                       "english":  "Today I talk about \"rain\".",
+                                       "korean":  "오늘은 \"비\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「雨」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_079",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "雪",
+                      "english":  "snow",
+                      "korean":  "눈",
+                      "examples":  {
+                                       "english":  "Today I talk about \"snow\".",
+                                       "korean":  "오늘은 \"눈\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「雪」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_080",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "風",
+                      "english":  "wind",
+                      "korean":  "바람",
+                      "examples":  {
+                                       "english":  "Today I talk about \"wind\".",
+                                       "korean":  "오늘은 \"바람\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「風」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_081",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "空",
+                      "english":  "sky",
+                      "korean":  "하늘",
+                      "examples":  {
+                                       "english":  "Today I talk about \"sky\".",
+                                       "korean":  "오늘은 \"하늘\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「空」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_082",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "海",
+                      "english":  "sea",
+                      "korean":  "바다",
+                      "examples":  {
+                                       "english":  "Today I talk about \"sea\".",
+                                       "korean":  "오늘은 \"바다\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「海」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_083",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "山",
+                      "english":  "mountain",
+                      "korean":  "산",
+                      "examples":  {
+                                       "english":  "Today I talk about \"mountain\".",
+                                       "korean":  "오늘은 \"산\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「山」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_084",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "川",
+                      "english":  "river",
+                      "korean":  "강",
+                      "examples":  {
+                                       "english":  "Today I talk about \"river\".",
+                                       "korean":  "오늘은 \"강\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「川」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_085",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "花",
+                      "english":  "flower",
+                      "korean":  "꽃",
+                      "examples":  {
+                                       "english":  "Today I talk about \"flower\".",
+                                       "korean":  "오늘은 \"꽃\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「花」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_086",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "犬",
+                      "english":  "dog",
+                      "korean":  "개",
+                      "examples":  {
+                                       "english":  "Today I talk about \"dog\".",
+                                       "korean":  "오늘은 \"개\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「犬」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_087",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "猫",
+                      "english":  "cat",
+                      "korean":  "고양이",
+                      "examples":  {
+                                       "english":  "Today I talk about \"cat\".",
+                                       "korean":  "오늘은 \"고양이\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「猫」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_088",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "音楽",
+                      "english":  "music",
+                      "korean":  "음악",
+                      "examples":  {
+                                       "english":  "Today I talk about \"music\".",
+                                       "korean":  "오늘은 \"음악\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「音楽」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_089",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "映画",
+                      "english":  "movie",
+                      "korean":  "영화",
+                      "examples":  {
+                                       "english":  "Today I talk about \"movie\".",
+                                       "korean":  "오늘은 \"영화\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「映画」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_090",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "写真",
+                      "english":  "photo",
+                      "korean":  "사진",
+                      "examples":  {
+                                       "english":  "Today I talk about \"photo\".",
+                                       "korean":  "오늘은 \"사진\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「写真」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_091",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "お金",
+                      "english":  "money",
+                      "korean":  "돈",
+                      "examples":  {
+                                       "english":  "Today I talk about \"money\".",
+                                       "korean":  "오늘은 \"돈\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「お金」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_092",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "仕事",
+                      "english":  "work",
+                      "korean":  "일",
+                      "examples":  {
+                                       "english":  "Today I talk about \"work\".",
+                                       "korean":  "오늘은 \"일\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「仕事」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_093",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "勉強",
+                      "english":  "study",
+                      "korean":  "공부",
+                      "examples":  {
+                                       "english":  "Today I talk about \"study\".",
+                                       "korean":  "오늘은 \"공부\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「勉強」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_094",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "旅行",
+                      "english":  "travel",
+                      "korean":  "여행",
+                      "examples":  {
+                                       "english":  "Today I talk about \"travel\".",
+                                       "korean":  "오늘은 \"여행\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「旅行」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_095",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "予定",
+                      "english":  "plan",
+                      "korean":  "예정",
+                      "examples":  {
+                                       "english":  "Today I talk about \"plan\".",
+                                       "korean":  "오늘은 \"예정\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「予定」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_096",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "問題",
+                      "english":  "question",
+                      "korean":  "문제",
+                      "examples":  {
+                                       "english":  "Today I talk about \"question\".",
+                                       "korean":  "오늘은 \"문제\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「問題」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_097",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "答え",
+                      "english":  "answer",
+                      "korean":  "답",
+                      "examples":  {
+                                       "english":  "Today I talk about \"answer\".",
+                                       "korean":  "오늘은 \"답\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「答え」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_098",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "薬",
+                      "english":  "medicine",
+                      "korean":  "약",
+                      "examples":  {
+                                       "english":  "Today I talk about \"medicine\".",
+                                       "korean":  "오늘은 \"약\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「薬」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_099",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "病気",
+                      "english":  "illness",
+                      "korean":  "병",
+                      "examples":  {
+                                       "english":  "Today I talk about \"illness\".",
+                                       "korean":  "오늘은 \"병\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「病気」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "noun_100",
+                      "category":  "noun",
+                      "categoryJa":  "名詞",
+                      "difficulty":  1,
+                      "japanese":  "新聞",
+                      "english":  "newspaper",
+                      "korean":  "신문",
+                      "examples":  {
+                                       "english":  "Today I talk about \"newspaper\".",
+                                       "korean":  "오늘은 \"신문\"에 대해 이야기해요.",
+                                       "japanese":  "今日は「新聞」について話します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_001",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "行く",
+                      "english":  "go",
+                      "korean":  "가다",
+                      "examples":  {
+                                       "english":  "Today I practice \"go\".",
+                                       "korean":  "오늘은 \"가다\"를 연습해요.",
+                                       "japanese":  "今日は「行く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_002",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "来る",
+                      "english":  "come",
+                      "korean":  "오다",
+                      "examples":  {
+                                       "english":  "Today I practice \"come\".",
+                                       "korean":  "오늘은 \"오다\"를 연습해요.",
+                                       "japanese":  "今日は「来る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_003",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "帰る",
+                      "english":  "return",
+                      "korean":  "돌아가다",
+                      "examples":  {
+                                       "english":  "Today I practice \"return\".",
+                                       "korean":  "오늘은 \"돌아가다\"를 연습해요.",
+                                       "japanese":  "今日は「帰る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_004",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "食べる",
+                      "english":  "eat",
+                      "korean":  "먹다",
+                      "examples":  {
+                                       "english":  "Today I practice \"eat\".",
+                                       "korean":  "오늘은 \"먹다\"를 연습해요.",
+                                       "japanese":  "今日は「食べる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_005",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "飲む",
+                      "english":  "drink",
+                      "korean":  "마시다",
+                      "examples":  {
+                                       "english":  "Today I practice \"drink\".",
+                                       "korean":  "오늘은 \"마시다\"를 연습해요.",
+                                       "japanese":  "今日は「飲む」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_006",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "見る",
+                      "english":  "see",
+                      "korean":  "보다",
+                      "examples":  {
+                                       "english":  "Today I practice \"see\".",
+                                       "korean":  "오늘은 \"보다\"를 연습해요.",
+                                       "japanese":  "今日は「見る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_007",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "聞く",
+                      "english":  "listen",
+                      "korean":  "듣다",
+                      "examples":  {
+                                       "english":  "Today I practice \"listen\".",
+                                       "korean":  "오늘은 \"듣다\"를 연습해요.",
+                                       "japanese":  "今日は「聞く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_008",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "話す",
+                      "english":  "speak",
+                      "korean":  "말하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"speak\".",
+                                       "korean":  "오늘은 \"말하다\"를 연습해요.",
+                                       "japanese":  "今日は「話す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_009",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "読む",
+                      "english":  "read",
+                      "korean":  "읽다",
+                      "examples":  {
+                                       "english":  "Today I practice \"read\".",
+                                       "korean":  "오늘은 \"읽다\"를 연습해요.",
+                                       "japanese":  "今日は「読む」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_010",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "書く",
+                      "english":  "write",
+                      "korean":  "쓰다",
+                      "examples":  {
+                                       "english":  "Today I practice \"write\".",
+                                       "korean":  "오늘은 \"쓰다\"를 연습해요.",
+                                       "japanese":  "今日は「書く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_011",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "買う",
+                      "english":  "buy",
+                      "korean":  "사다",
+                      "examples":  {
+                                       "english":  "Today I practice \"buy\".",
+                                       "korean":  "오늘은 \"사다\"를 연습해요.",
+                                       "japanese":  "今日は「買う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_012",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "売る",
+                      "english":  "sell",
+                      "korean":  "팔다",
+                      "examples":  {
+                                       "english":  "Today I practice \"sell\".",
+                                       "korean":  "오늘은 \"팔다\"를 연습해요.",
+                                       "japanese":  "今日は「売る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_013",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "使う",
+                      "english":  "use",
+                      "korean":  "사용하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"use\".",
+                                       "korean":  "오늘은 \"사용하다\"를 연습해요.",
+                                       "japanese":  "今日は「使う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_014",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "作る",
+                      "english":  "make",
+                      "korean":  "만들다",
+                      "examples":  {
+                                       "english":  "Today I practice \"make\".",
+                                       "korean":  "오늘은 \"만들다\"를 연습해요.",
+                                       "japanese":  "今日は「作る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_015",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "する",
+                      "english":  "do",
+                      "korean":  "하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"do\".",
+                                       "korean":  "오늘은 \"하다\"를 연습해요.",
+                                       "japanese":  "今日は「する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_016",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "勉強する",
+                      "english":  "study",
+                      "korean":  "공부하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"study\".",
+                                       "korean":  "오늘은 \"공부하다\"를 연습해요.",
+                                       "japanese":  "今日は「勉強する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_017",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "働く",
+                      "english":  "work",
+                      "korean":  "일하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"work\".",
+                                       "korean":  "오늘은 \"일하다\"를 연습해요.",
+                                       "japanese":  "今日は「働く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_018",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "休む",
+                      "english":  "rest",
+                      "korean":  "쉬다",
+                      "examples":  {
+                                       "english":  "Today I practice \"rest\".",
+                                       "korean":  "오늘은 \"쉬다\"를 연습해요.",
+                                       "japanese":  "今日は「休む」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_019",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "寝る",
+                      "english":  "sleep",
+                      "korean":  "자다",
+                      "examples":  {
+                                       "english":  "Today I practice \"sleep\".",
+                                       "korean":  "오늘은 \"자다\"를 연습해요.",
+                                       "japanese":  "今日は「寝る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_020",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "起きる",
+                      "english":  "wake up",
+                      "korean":  "일어나다",
+                      "examples":  {
+                                       "english":  "Today I practice \"wake up\".",
+                                       "korean":  "오늘은 \"일어나다\"를 연습해요.",
+                                       "japanese":  "今日は「起きる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_021",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "座る",
+                      "english":  "sit",
+                      "korean":  "앉다",
+                      "examples":  {
+                                       "english":  "Today I practice \"sit\".",
+                                       "korean":  "오늘은 \"앉다\"를 연습해요.",
+                                       "japanese":  "今日は「座る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_022",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "立つ",
+                      "english":  "stand",
+                      "korean":  "서다",
+                      "examples":  {
+                                       "english":  "Today I practice \"stand\".",
+                                       "korean":  "오늘은 \"서다\"를 연습해요.",
+                                       "japanese":  "今日は「立つ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_023",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "歩く",
+                      "english":  "walk",
+                      "korean":  "걷다",
+                      "examples":  {
+                                       "english":  "Today I practice \"walk\".",
+                                       "korean":  "오늘은 \"걷다\"를 연습해요.",
+                                       "japanese":  "今日は「歩く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_024",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "走る",
+                      "english":  "run",
+                      "korean":  "달리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"run\".",
+                                       "korean":  "오늘은 \"달리다\"를 연습해요.",
+                                       "japanese":  "今日は「走る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_025",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "待つ",
+                      "english":  "wait",
+                      "korean":  "기다리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"wait\".",
+                                       "korean":  "오늘은 \"기다리다\"를 연습해요.",
+                                       "japanese":  "今日は「待つ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_026",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "会う",
+                      "english":  "meet",
+                      "korean":  "만나다",
+                      "examples":  {
+                                       "english":  "Today I practice \"meet\".",
+                                       "korean":  "오늘은 \"만나다\"를 연습해요.",
+                                       "japanese":  "今日は「会う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_027",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "教える",
+                      "english":  "teach",
+                      "korean":  "가르치다",
+                      "examples":  {
+                                       "english":  "Today I practice \"teach\".",
+                                       "korean":  "오늘은 \"가르치다\"를 연습해요.",
+                                       "japanese":  "今日は「教える」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_028",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "習う",
+                      "english":  "learn",
+                      "korean":  "배우다",
+                      "examples":  {
+                                       "english":  "Today I practice \"learn\".",
+                                       "korean":  "오늘은 \"배우다\"를 연습해요.",
+                                       "japanese":  "今日は「習う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_029",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "覚える",
+                      "english":  "memorize",
+                      "korean":  "외우다",
+                      "examples":  {
+                                       "english":  "Today I practice \"memorize\".",
+                                       "korean":  "오늘은 \"외우다\"를 연습해요.",
+                                       "japanese":  "今日は「覚える」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_030",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "忘れる",
+                      "english":  "forget",
+                      "korean":  "잊다",
+                      "examples":  {
+                                       "english":  "Today I practice \"forget\".",
+                                       "korean":  "오늘은 \"잊다\"를 연습해요.",
+                                       "japanese":  "今日は「忘れる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_031",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "分かる",
+                      "english":  "understand",
+                      "korean":  "알다",
+                      "examples":  {
+                                       "english":  "Today I practice \"understand\".",
+                                       "korean":  "오늘은 \"알다\"를 연습해요.",
+                                       "japanese":  "今日は「分かる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_032",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "考える",
+                      "english":  "think",
+                      "korean":  "생각하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"think\".",
+                                       "korean":  "오늘은 \"생각하다\"를 연습해요.",
+                                       "japanese":  "今日は「考える」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_033",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "探す",
+                      "english":  "search",
+                      "korean":  "찾다",
+                      "examples":  {
+                                       "english":  "Today I practice \"search\".",
+                                       "korean":  "오늘은 \"찾다\"를 연습해요.",
+                                       "japanese":  "今日は「探す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_034",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "見つける",
+                      "english":  "find",
+                      "korean":  "찾아내다",
+                      "examples":  {
+                                       "english":  "Today I practice \"find\".",
+                                       "korean":  "오늘은 \"찾아내다\"를 연습해요.",
+                                       "japanese":  "今日は「見つける」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_035",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "開ける",
+                      "english":  "open",
+                      "korean":  "열다",
+                      "examples":  {
+                                       "english":  "Today I practice \"open\".",
+                                       "korean":  "오늘은 \"열다\"를 연습해요.",
+                                       "japanese":  "今日は「開ける」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_036",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "閉める",
+                      "english":  "close",
+                      "korean":  "닫다",
+                      "examples":  {
+                                       "english":  "Today I practice \"close\".",
+                                       "korean":  "오늘은 \"닫다\"를 연습해요.",
+                                       "japanese":  "今日は「閉める」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_037",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "入る",
+                      "english":  "enter",
+                      "korean":  "들어가다",
+                      "examples":  {
+                                       "english":  "Today I practice \"enter\".",
+                                       "korean":  "오늘은 \"들어가다\"를 연습해요.",
+                                       "japanese":  "今日は「入る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_038",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "出る",
+                      "english":  "exit",
+                      "korean":  "나가다",
+                      "examples":  {
+                                       "english":  "Today I practice \"exit\".",
+                                       "korean":  "오늘은 \"나가다\"를 연습해요.",
+                                       "japanese":  "今日は「出る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_039",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "持つ",
+                      "english":  "hold",
+                      "korean":  "가지다",
+                      "examples":  {
+                                       "english":  "Today I practice \"hold\".",
+                                       "korean":  "오늘은 \"가지다\"를 연습해요.",
+                                       "japanese":  "今日は「持つ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_040",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "置く",
+                      "english":  "put",
+                      "korean":  "놓다",
+                      "examples":  {
+                                       "english":  "Today I practice \"put\".",
+                                       "korean":  "오늘은 \"놓다\"를 연습해요.",
+                                       "japanese":  "今日は「置く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_041",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "送る",
+                      "english":  "send",
+                      "korean":  "보내다",
+                      "examples":  {
+                                       "english":  "Today I practice \"send\".",
+                                       "korean":  "오늘은 \"보내다\"를 연습해요.",
+                                       "japanese":  "今日は「送る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_042",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "受け取る",
+                      "english":  "receive",
+                      "korean":  "받다",
+                      "examples":  {
+                                       "english":  "Today I practice \"receive\".",
+                                       "korean":  "오늘은 \"받다\"를 연습해요.",
+                                       "japanese":  "今日は「受け取る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_043",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "始める",
+                      "english":  "start",
+                      "korean":  "시작하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"start\".",
+                                       "korean":  "오늘은 \"시작하다\"를 연습해요.",
+                                       "japanese":  "今日は「始める」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_044",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "終わる",
+                      "english":  "finish",
+                      "korean":  "끝나다",
+                      "examples":  {
+                                       "english":  "Today I practice \"finish\".",
+                                       "korean":  "오늘은 \"끝나다\"를 연습해요.",
+                                       "japanese":  "今日は「終わる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_045",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "選ぶ",
+                      "english":  "choose",
+                      "korean":  "고르다",
+                      "examples":  {
+                                       "english":  "Today I practice \"choose\".",
+                                       "korean":  "오늘은 \"고르다\"를 연습해요.",
+                                       "japanese":  "今日は「選ぶ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_046",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "答える",
+                      "english":  "answer",
+                      "korean":  "대답하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"answer\".",
+                                       "korean":  "오늘은 \"대답하다\"를 연습해요.",
+                                       "japanese":  "今日は「答える」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_047",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "質問する",
+                      "english":  "ask",
+                      "korean":  "질문하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"ask\".",
+                                       "korean":  "오늘은 \"질문하다\"를 연습해요.",
+                                       "japanese":  "今日は「質問する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_048",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "助ける",
+                      "english":  "help",
+                      "korean":  "돕다",
+                      "examples":  {
+                                       "english":  "Today I practice \"help\".",
+                                       "korean":  "오늘은 \"돕다\"를 연습해요.",
+                                       "japanese":  "今日は「助ける」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_049",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "呼ぶ",
+                      "english":  "call",
+                      "korean":  "부르다",
+                      "examples":  {
+                                       "english":  "Today I practice \"call\".",
+                                       "korean":  "오늘은 \"부르다\"를 연습해요.",
+                                       "japanese":  "今日は「呼ぶ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_050",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "笑う",
+                      "english":  "laugh",
+                      "korean":  "웃다",
+                      "examples":  {
+                                       "english":  "Today I practice \"laugh\".",
+                                       "korean":  "오늘은 \"웃다\"를 연습해요.",
+                                       "japanese":  "今日は「笑う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_051",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "泣く",
+                      "english":  "cry",
+                      "korean":  "울다",
+                      "examples":  {
+                                       "english":  "Today I practice \"cry\".",
+                                       "korean":  "오늘은 \"울다\"를 연습해요.",
+                                       "japanese":  "今日は「泣く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_052",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "遊ぶ",
+                      "english":  "play",
+                      "korean":  "놀다",
+                      "examples":  {
+                                       "english":  "Today I practice \"play\".",
+                                       "korean":  "오늘은 \"놀다\"를 연습해요.",
+                                       "japanese":  "今日は「遊ぶ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_053",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "洗う",
+                      "english":  "wash",
+                      "korean":  "씻다",
+                      "examples":  {
+                                       "english":  "Today I practice \"wash\".",
+                                       "korean":  "오늘은 \"씻다\"를 연습해요.",
+                                       "japanese":  "今日は「洗う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_054",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "掃除する",
+                      "english":  "clean",
+                      "korean":  "청소하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"clean\".",
+                                       "korean":  "오늘은 \"청소하다\"를 연습해요.",
+                                       "japanese":  "今日は「掃除する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_055",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "料理する",
+                      "english":  "cook",
+                      "korean":  "요리하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"cook\".",
+                                       "korean":  "오늘은 \"요리하다\"를 연습해요.",
+                                       "japanese":  "今日は「料理する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_056",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "運転する",
+                      "english":  "drive",
+                      "korean":  "운전하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"drive\".",
+                                       "korean":  "오늘은 \"운전하다\"를 연습해요.",
+                                       "japanese":  "今日は「運転する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_057",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "乗る",
+                      "english":  "ride",
+                      "korean":  "타다",
+                      "examples":  {
+                                       "english":  "Today I practice \"ride\".",
+                                       "korean":  "오늘은 \"타다\"를 연습해요.",
+                                       "japanese":  "今日は「乗る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_058",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "降りる",
+                      "english":  "get off",
+                      "korean":  "내리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"get off\".",
+                                       "korean":  "오늘은 \"내리다\"를 연습해요.",
+                                       "japanese":  "今日は「降りる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_059",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "着る",
+                      "english":  "wear",
+                      "korean":  "입다",
+                      "examples":  {
+                                       "english":  "Today I practice \"wear\".",
+                                       "korean":  "오늘은 \"입다\"를 연습해요.",
+                                       "japanese":  "今日は「着る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_060",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "脱ぐ",
+                      "english":  "take off",
+                      "korean":  "벗다",
+                      "examples":  {
+                                       "english":  "Today I practice \"take off\".",
+                                       "korean":  "오늘은 \"벗다\"를 연습해요.",
+                                       "japanese":  "今日は「脱ぐ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_061",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "払う",
+                      "english":  "pay",
+                      "korean":  "내다",
+                      "examples":  {
+                                       "english":  "Today I practice \"pay\".",
+                                       "korean":  "오늘은 \"내다\"를 연습해요.",
+                                       "japanese":  "今日は「払う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_062",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "借りる",
+                      "english":  "borrow",
+                      "korean":  "빌리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"borrow\".",
+                                       "korean":  "오늘은 \"빌리다\"를 연습해요.",
+                                       "japanese":  "今日は「借りる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_063",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "貸す",
+                      "english":  "lend",
+                      "korean":  "빌려주다",
+                      "examples":  {
+                                       "english":  "Today I practice \"lend\".",
+                                       "korean":  "오늘은 \"빌려주다\"를 연습해요.",
+                                       "japanese":  "今日は「貸す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_064",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "予約する",
+                      "english":  "reserve",
+                      "korean":  "예약하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"reserve\".",
+                                       "korean":  "오늘은 \"예약하다\"를 연습해요.",
+                                       "japanese":  "今日は「予約する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_065",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "確認する",
+                      "english":  "check",
+                      "korean":  "확인하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"check\".",
+                                       "korean":  "오늘은 \"확인하다\"를 연습해요.",
+                                       "japanese":  "今日は「確認する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_066",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "変える",
+                      "english":  "change",
+                      "korean":  "바꾸다",
+                      "examples":  {
+                                       "english":  "Today I practice \"change\".",
+                                       "korean":  "오늘은 \"바꾸다\"를 연습해요.",
+                                       "japanese":  "今日は「変える」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_067",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "直す",
+                      "english":  "fix",
+                      "korean":  "고치다",
+                      "examples":  {
+                                       "english":  "Today I practice \"fix\".",
+                                       "korean":  "오늘은 \"고치다\"를 연습해요.",
+                                       "japanese":  "今日は「直す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_068",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "開く",
+                      "english":  "be open",
+                      "korean":  "열리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be open\".",
+                                       "korean":  "오늘은 \"열리다\"를 연습해요.",
+                                       "japanese":  "今日は「開く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_069",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "閉まる",
+                      "english":  "be closed",
+                      "korean":  "닫히다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be closed\".",
+                                       "korean":  "오늘은 \"닫히다\"를 연습해요.",
+                                       "japanese":  "今日は「閉まる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_070",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "消す",
+                      "english":  "turn off",
+                      "korean":  "끄다",
+                      "examples":  {
+                                       "english":  "Today I practice \"turn off\".",
+                                       "korean":  "오늘은 \"끄다\"를 연습해요.",
+                                       "japanese":  "今日は「消す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_071",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "つける",
+                      "english":  "turn on",
+                      "korean":  "켜다",
+                      "examples":  {
+                                       "english":  "Today I practice \"turn on\".",
+                                       "korean":  "오늘은 \"켜다\"를 연습해요.",
+                                       "japanese":  "今日は「つける」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_072",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "入れる",
+                      "english":  "put in",
+                      "korean":  "넣다",
+                      "examples":  {
+                                       "english":  "Today I practice \"put in\".",
+                                       "korean":  "오늘은 \"넣다\"를 연습해요.",
+                                       "japanese":  "今日は「入れる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_073",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "出す",
+                      "english":  "take out",
+                      "korean":  "꺼내다",
+                      "examples":  {
+                                       "english":  "Today I practice \"take out\".",
+                                       "korean":  "오늘은 \"꺼내다\"를 연습해요.",
+                                       "japanese":  "今日は「出す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_074",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "見せる",
+                      "english":  "show",
+                      "korean":  "보여주다",
+                      "examples":  {
+                                       "english":  "Today I practice \"show\".",
+                                       "korean":  "오늘은 \"보여주다\"를 연습해요.",
+                                       "japanese":  "今日は「見せる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_075",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "決める",
+                      "english":  "decide",
+                      "korean":  "정하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"decide\".",
+                                       "korean":  "오늘은 \"정하다\"를 연습해요.",
+                                       "japanese":  "今日は「決める」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_076",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "知る",
+                      "english":  "know",
+                      "korean":  "알다",
+                      "examples":  {
+                                       "english":  "Today I practice \"know\".",
+                                       "korean":  "오늘은 \"알다\"를 연습해요.",
+                                       "japanese":  "今日は「知る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_077",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "住む",
+                      "english":  "live",
+                      "korean":  "살다",
+                      "examples":  {
+                                       "english":  "Today I practice \"live\".",
+                                       "korean":  "오늘은 \"살다\"를 연습해요.",
+                                       "japanese":  "今日は「住む」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_078",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "動く",
+                      "english":  "move",
+                      "korean":  "움직이다",
+                      "examples":  {
+                                       "english":  "Today I practice \"move\".",
+                                       "korean":  "오늘은 \"움직이다\"를 연습해요.",
+                                       "japanese":  "今日は「動く」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_079",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "止まる",
+                      "english":  "stop",
+                      "korean":  "멈추다",
+                      "examples":  {
+                                       "english":  "Today I practice \"stop\".",
+                                       "korean":  "오늘은 \"멈추다\"를 연습해요.",
+                                       "japanese":  "今日は「止まる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_080",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "遅れる",
+                      "english":  "be late",
+                      "korean":  "늦다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be late\".",
+                                       "korean":  "오늘은 \"늦다\"를 연습해요.",
+                                       "japanese":  "今日は「遅れる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_081",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "間に合う",
+                      "english":  "be on time",
+                      "korean":  "제시간에 도착하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be on time\".",
+                                       "korean":  "오늘은 \"제시간에 도착하다\"를 연습해요.",
+                                       "japanese":  "今日は「間に合う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_082",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "急ぐ",
+                      "english":  "hurry",
+                      "korean":  "서두르다",
+                      "examples":  {
+                                       "english":  "Today I practice \"hurry\".",
+                                       "korean":  "오늘은 \"서두르다\"를 연습해요.",
+                                       "japanese":  "今日は「急ぐ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_083",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "続ける",
+                      "english":  "continue",
+                      "korean":  "계속하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"continue\".",
+                                       "korean":  "오늘은 \"계속하다\"를 연습해요.",
+                                       "japanese":  "今日は「続ける」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_084",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "比べる",
+                      "english":  "compare",
+                      "korean":  "비교하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"compare\".",
+                                       "korean":  "오늘은 \"비교하다\"를 연습해요.",
+                                       "japanese":  "今日は「比べる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_085",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "練習する",
+                      "english":  "practice",
+                      "korean":  "연습하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"practice\".",
+                                       "korean":  "오늘은 \"연습하다\"를 연습해요.",
+                                       "japanese":  "今日は「練習する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_086",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "復習する",
+                      "english":  "review",
+                      "korean":  "복습하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"review\".",
+                                       "korean":  "오늘은 \"복습하다\"를 연습해요.",
+                                       "japanese":  "今日は「復習する」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_087",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "覚え直す",
+                      "english":  "relearn",
+                      "korean":  "다시 외우다",
+                      "examples":  {
+                                       "english":  "Today I practice \"relearn\".",
+                                       "korean":  "오늘은 \"다시 외우다\"를 연습해요.",
+                                       "japanese":  "今日は「覚え直す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_088",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "調べる",
+                      "english":  "look up",
+                      "korean":  "찾아보다",
+                      "examples":  {
+                                       "english":  "Today I practice \"look up\".",
+                                       "korean":  "오늘은 \"찾아보다\"를 연습해요.",
+                                       "japanese":  "今日は「調べる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_089",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "試す",
+                      "english":  "try",
+                      "korean":  "시도하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"try\".",
+                                       "korean":  "오늘은 \"시도하다\"를 연습해요.",
+                                       "japanese":  "今日は「試す」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_090",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "感じる",
+                      "english":  "feel",
+                      "korean":  "느끼다",
+                      "examples":  {
+                                       "english":  "Today I practice \"feel\".",
+                                       "korean":  "오늘은 \"느끼다\"를 연습해요.",
+                                       "japanese":  "今日は「感じる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_091",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "思う",
+                      "english":  "think",
+                      "korean":  "생각하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"think\".",
+                                       "korean":  "오늘은 \"생각하다\"를 연습해요.",
+                                       "japanese":  "今日は「思う」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_092",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "信じる",
+                      "english":  "believe",
+                      "korean":  "믿다",
+                      "examples":  {
+                                       "english":  "Today I practice \"believe\".",
+                                       "korean":  "오늘은 \"믿다\"를 연습해요.",
+                                       "japanese":  "今日は「信じる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_093",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "楽しむ",
+                      "english":  "enjoy",
+                      "korean":  "즐기다",
+                      "examples":  {
+                                       "english":  "Today I practice \"enjoy\".",
+                                       "korean":  "오늘은 \"즐기다\"를 연습해요.",
+                                       "japanese":  "今日は「楽しむ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_094",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "喜ぶ",
+                      "english":  "be glad",
+                      "korean":  "기뻐하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be glad\".",
+                                       "korean":  "오늘은 \"기뻐하다\"를 연습해요.",
+                                       "japanese":  "今日は「喜ぶ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_095",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "困る",
+                      "english":  "be troubled",
+                      "korean":  "곤란하다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be troubled\".",
+                                       "korean":  "오늘은 \"곤란하다\"를 연습해요.",
+                                       "japanese":  "今日は「困る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_096",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "疲れる",
+                      "english":  "get tired",
+                      "korean":  "피곤해지다",
+                      "examples":  {
+                                       "english":  "Today I practice \"get tired\".",
+                                       "korean":  "오늘은 \"피곤해지다\"를 연습해요.",
+                                       "japanese":  "今日は「疲れる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_097",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "晴れる",
+                      "english":  "clear up",
+                      "korean":  "개다",
+                      "examples":  {
+                                       "english":  "Today I practice \"clear up\".",
+                                       "korean":  "오늘은 \"개다\"를 연습해요.",
+                                       "japanese":  "今日は「晴れる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_098",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "降る",
+                      "english":  "fall",
+                      "korean":  "내리다",
+                      "examples":  {
+                                       "english":  "Today I practice \"fall\".",
+                                       "korean":  "오늘은 \"내리다\"를 연습해요.",
+                                       "japanese":  "今日は「降る」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_099",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "生まれる",
+                      "english":  "be born",
+                      "korean":  "태어나다",
+                      "examples":  {
+                                       "english":  "Today I practice \"be born\".",
+                                       "korean":  "오늘은 \"태어나다\"를 연습해요.",
+                                       "japanese":  "今日は「生まれる」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "verb_100",
+                      "category":  "verb",
+                      "categoryJa":  "動詞",
+                      "difficulty":  1,
+                      "japanese":  "育つ",
+                      "english":  "grow",
+                      "korean":  "자라다",
+                      "examples":  {
+                                       "english":  "Today I practice \"grow\".",
+                                       "korean":  "오늘은 \"자라다\"를 연습해요.",
+                                       "japanese":  "今日は「育つ」を練習します。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_001",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "大きい",
+                      "english":  "big",
+                      "korean":  "크다",
+                      "examples":  {
+                                       "english":  "This word means \"big\".",
+                                       "korean":  "이 단어는 \"크다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「大きい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_002",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "小さい",
+                      "english":  "small",
+                      "korean":  "작다",
+                      "examples":  {
+                                       "english":  "This word means \"small\".",
+                                       "korean":  "이 단어는 \"작다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「小さい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_003",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "新しい",
+                      "english":  "new",
+                      "korean":  "새롭다",
+                      "examples":  {
+                                       "english":  "This word means \"new\".",
+                                       "korean":  "이 단어는 \"새롭다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「新しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_004",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "古い",
+                      "english":  "old",
+                      "korean":  "낡다",
+                      "examples":  {
+                                       "english":  "This word means \"old\".",
+                                       "korean":  "이 단어는 \"낡다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「古い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_005",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "良い",
+                      "english":  "good",
+                      "korean":  "좋다",
+                      "examples":  {
+                                       "english":  "This word means \"good\".",
+                                       "korean":  "이 단어는 \"좋다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「良い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_006",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "悪い",
+                      "english":  "bad",
+                      "korean":  "나쁘다",
+                      "examples":  {
+                                       "english":  "This word means \"bad\".",
+                                       "korean":  "이 단어는 \"나쁘다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「悪い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_007",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "高い",
+                      "english":  "expensive",
+                      "korean":  "비싸다",
+                      "examples":  {
+                                       "english":  "This word means \"expensive\".",
+                                       "korean":  "이 단어는 \"비싸다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「高い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_008",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "安い",
+                      "english":  "cheap",
+                      "korean":  "싸다",
+                      "examples":  {
+                                       "english":  "This word means \"cheap\".",
+                                       "korean":  "이 단어는 \"싸다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「安い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_009",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "長い",
+                      "english":  "long",
+                      "korean":  "길다",
+                      "examples":  {
+                                       "english":  "This word means \"long\".",
+                                       "korean":  "이 단어는 \"길다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「長い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_010",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "短い",
+                      "english":  "short",
+                      "korean":  "짧다",
+                      "examples":  {
+                                       "english":  "This word means \"short\".",
+                                       "korean":  "이 단어는 \"짧다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「短い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_011",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "早い",
+                      "english":  "early",
+                      "korean":  "이르다",
+                      "examples":  {
+                                       "english":  "This word means \"early\".",
+                                       "korean":  "이 단어는 \"이르다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「早い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_012",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "遅い",
+                      "english":  "late",
+                      "korean":  "늦다",
+                      "examples":  {
+                                       "english":  "This word means \"late\".",
+                                       "korean":  "이 단어는 \"늦다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「遅い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_013",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "速い",
+                      "english":  "fast",
+                      "korean":  "빠르다",
+                      "examples":  {
+                                       "english":  "This word means \"fast\".",
+                                       "korean":  "이 단어는 \"빠르다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「速い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_014",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "遅い",
+                      "english":  "slow",
+                      "korean":  "느리다",
+                      "examples":  {
+                                       "english":  "This word means \"slow\".",
+                                       "korean":  "이 단어는 \"느리다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「遅い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_015",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "暑い",
+                      "english":  "hot",
+                      "korean":  "덥다",
+                      "examples":  {
+                                       "english":  "This word means \"hot\".",
+                                       "korean":  "이 단어는 \"덥다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「暑い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_016",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "寒い",
+                      "english":  "cold",
+                      "korean":  "춥다",
+                      "examples":  {
+                                       "english":  "This word means \"cold\".",
+                                       "korean":  "이 단어는 \"춥다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「寒い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_017",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "暖かい",
+                      "english":  "warm",
+                      "korean":  "따뜻하다",
+                      "examples":  {
+                                       "english":  "This word means \"warm\".",
+                                       "korean":  "이 단어는 \"따뜻하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「暖かい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_018",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "涼しい",
+                      "english":  "cool",
+                      "korean":  "시원하다",
+                      "examples":  {
+                                       "english":  "This word means \"cool\".",
+                                       "korean":  "이 단어는 \"시원하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「涼しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_019",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "熱い",
+                      "english":  "hot to touch",
+                      "korean":  "뜨겁다",
+                      "examples":  {
+                                       "english":  "This word means \"hot to touch\".",
+                                       "korean":  "이 단어는 \"뜨겁다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「熱い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_020",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "冷たい",
+                      "english":  "cold to touch",
+                      "korean":  "차갑다",
+                      "examples":  {
+                                       "english":  "This word means \"cold to touch\".",
+                                       "korean":  "이 단어는 \"차갑다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「冷たい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_021",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "明るい",
+                      "english":  "bright",
+                      "korean":  "밝다",
+                      "examples":  {
+                                       "english":  "This word means \"bright\".",
+                                       "korean":  "이 단어는 \"밝다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「明るい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_022",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "暗い",
+                      "english":  "dark",
+                      "korean":  "어둡다",
+                      "examples":  {
+                                       "english":  "This word means \"dark\".",
+                                       "korean":  "이 단어는 \"어둡다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「暗い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_023",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "広い",
+                      "english":  "wide",
+                      "korean":  "넓다",
+                      "examples":  {
+                                       "english":  "This word means \"wide\".",
+                                       "korean":  "이 단어는 \"넓다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「広い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_024",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "狭い",
+                      "english":  "narrow",
+                      "korean":  "좁다",
+                      "examples":  {
+                                       "english":  "This word means \"narrow\".",
+                                       "korean":  "이 단어는 \"좁다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「狭い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_025",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "重い",
+                      "english":  "heavy",
+                      "korean":  "무겁다",
+                      "examples":  {
+                                       "english":  "This word means \"heavy\".",
+                                       "korean":  "이 단어는 \"무겁다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「重い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_026",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "軽い",
+                      "english":  "light",
+                      "korean":  "가볍다",
+                      "examples":  {
+                                       "english":  "This word means \"light\".",
+                                       "korean":  "이 단어는 \"가볍다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「軽い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_027",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "強い",
+                      "english":  "strong",
+                      "korean":  "강하다",
+                      "examples":  {
+                                       "english":  "This word means \"strong\".",
+                                       "korean":  "이 단어는 \"강하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「強い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_028",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "弱い",
+                      "english":  "weak",
+                      "korean":  "약하다",
+                      "examples":  {
+                                       "english":  "This word means \"weak\".",
+                                       "korean":  "이 단어는 \"약하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「弱い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_029",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "難しい",
+                      "english":  "difficult",
+                      "korean":  "어렵다",
+                      "examples":  {
+                                       "english":  "This word means \"difficult\".",
+                                       "korean":  "이 단어는 \"어렵다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「難しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_030",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "簡単な",
+                      "english":  "easy",
+                      "korean":  "쉽다",
+                      "examples":  {
+                                       "english":  "This word means \"easy\".",
+                                       "korean":  "이 단어는 \"쉽다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「簡単な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_031",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "楽しい",
+                      "english":  "fun",
+                      "korean":  "즐겁다",
+                      "examples":  {
+                                       "english":  "This word means \"fun\".",
+                                       "korean":  "이 단어는 \"즐겁다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「楽しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_032",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "つまらない",
+                      "english":  "boring",
+                      "korean":  "지루하다",
+                      "examples":  {
+                                       "english":  "This word means \"boring\".",
+                                       "korean":  "이 단어는 \"지루하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「つまらない」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_033",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "忙しい",
+                      "english":  "busy",
+                      "korean":  "바쁘다",
+                      "examples":  {
+                                       "english":  "This word means \"busy\".",
+                                       "korean":  "이 단어는 \"바쁘다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「忙しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_034",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "暇な",
+                      "english":  "free",
+                      "korean":  "한가하다",
+                      "examples":  {
+                                       "english":  "This word means \"free\".",
+                                       "korean":  "이 단어는 \"한가하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「暇な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_035",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "きれいな",
+                      "english":  "beautiful",
+                      "korean":  "예쁘다",
+                      "examples":  {
+                                       "english":  "This word means \"beautiful\".",
+                                       "korean":  "이 단어는 \"예쁘다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「きれいな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_036",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "かわいい",
+                      "english":  "cute",
+                      "korean":  "귀엽다",
+                      "examples":  {
+                                       "english":  "This word means \"cute\".",
+                                       "korean":  "이 단어는 \"귀엽다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「かわいい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_037",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "かっこいい",
+                      "english":  "cool",
+                      "korean":  "멋있다",
+                      "examples":  {
+                                       "english":  "This word means \"cool\".",
+                                       "korean":  "이 단어는 \"멋있다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「かっこいい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_038",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "親切な",
+                      "english":  "kind",
+                      "korean":  "친절하다",
+                      "examples":  {
+                                       "english":  "This word means \"kind\".",
+                                       "korean":  "이 단어는 \"친절하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「親切な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_039",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "便利な",
+                      "english":  "convenient",
+                      "korean":  "편리하다",
+                      "examples":  {
+                                       "english":  "This word means \"convenient\".",
+                                       "korean":  "이 단어는 \"편리하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「便利な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_040",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "不便な",
+                      "english":  "inconvenient",
+                      "korean":  "불편하다",
+                      "examples":  {
+                                       "english":  "This word means \"inconvenient\".",
+                                       "korean":  "이 단어는 \"불편하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「不便な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_041",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "有名な",
+                      "english":  "famous",
+                      "korean":  "유명하다",
+                      "examples":  {
+                                       "english":  "This word means \"famous\".",
+                                       "korean":  "이 단어는 \"유명하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「有名な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_042",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "静かな",
+                      "english":  "quiet",
+                      "korean":  "조용하다",
+                      "examples":  {
+                                       "english":  "This word means \"quiet\".",
+                                       "korean":  "이 단어는 \"조용하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「静かな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_043",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "にぎやかな",
+                      "english":  "lively",
+                      "korean":  "번화하다",
+                      "examples":  {
+                                       "english":  "This word means \"lively\".",
+                                       "korean":  "이 단어는 \"번화하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「にぎやかな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_044",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "安全な",
+                      "english":  "safe",
+                      "korean":  "안전하다",
+                      "examples":  {
+                                       "english":  "This word means \"safe\".",
+                                       "korean":  "이 단어는 \"안전하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「安全な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_045",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "危ない",
+                      "english":  "dangerous",
+                      "korean":  "위험하다",
+                      "examples":  {
+                                       "english":  "This word means \"dangerous\".",
+                                       "korean":  "이 단어는 \"위험하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「危ない」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_046",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "正しい",
+                      "english":  "correct",
+                      "korean":  "맞다",
+                      "examples":  {
+                                       "english":  "This word means \"correct\".",
+                                       "korean":  "이 단어는 \"맞다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「正しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_047",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "間違った",
+                      "english":  "wrong",
+                      "korean":  "틀리다",
+                      "examples":  {
+                                       "english":  "This word means \"wrong\".",
+                                       "korean":  "이 단어는 \"틀리다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「間違った」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_048",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "近い",
+                      "english":  "near",
+                      "korean":  "가깝다",
+                      "examples":  {
+                                       "english":  "This word means \"near\".",
+                                       "korean":  "이 단어는 \"가깝다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「近い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_049",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "遠い",
+                      "english":  "far",
+                      "korean":  "멀다",
+                      "examples":  {
+                                       "english":  "This word means \"far\".",
+                                       "korean":  "이 단어는 \"멀다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「遠い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_050",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "多い",
+                      "english":  "many",
+                      "korean":  "많다",
+                      "examples":  {
+                                       "english":  "This word means \"many\".",
+                                       "korean":  "이 단어는 \"많다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「多い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_051",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "少ない",
+                      "english":  "few",
+                      "korean":  "적다",
+                      "examples":  {
+                                       "english":  "This word means \"few\".",
+                                       "korean":  "이 단어는 \"적다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「少ない」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_052",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "同じ",
+                      "english":  "same",
+                      "korean":  "같다",
+                      "examples":  {
+                                       "english":  "This word means \"same\".",
+                                       "korean":  "이 단어는 \"같다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「同じ」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_053",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "違う",
+                      "english":  "different",
+                      "korean":  "다르다",
+                      "examples":  {
+                                       "english":  "This word means \"different\".",
+                                       "korean":  "이 단어는 \"다르다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「違う」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_054",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "甘い",
+                      "english":  "sweet",
+                      "korean":  "달다",
+                      "examples":  {
+                                       "english":  "This word means \"sweet\".",
+                                       "korean":  "이 단어는 \"달다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「甘い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_055",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "辛い",
+                      "english":  "spicy",
+                      "korean":  "맵다",
+                      "examples":  {
+                                       "english":  "This word means \"spicy\".",
+                                       "korean":  "이 단어는 \"맵다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「辛い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_056",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "苦い",
+                      "english":  "bitter",
+                      "korean":  "쓰다",
+                      "examples":  {
+                                       "english":  "This word means \"bitter\".",
+                                       "korean":  "이 단어는 \"쓰다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「苦い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_057",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "しょっぱい",
+                      "english":  "salty",
+                      "korean":  "짜다",
+                      "examples":  {
+                                       "english":  "This word means \"salty\".",
+                                       "korean":  "이 단어는 \"짜다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「しょっぱい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_058",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "おいしい",
+                      "english":  "delicious",
+                      "korean":  "맛있다",
+                      "examples":  {
+                                       "english":  "This word means \"delicious\".",
+                                       "korean":  "이 단어는 \"맛있다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「おいしい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_059",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "まずい",
+                      "english":  "bad tasting",
+                      "korean":  "맛없다",
+                      "examples":  {
+                                       "english":  "This word means \"bad tasting\".",
+                                       "korean":  "이 단어는 \"맛없다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「まずい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_060",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "やわらかい",
+                      "english":  "soft",
+                      "korean":  "부드럽다",
+                      "examples":  {
+                                       "english":  "This word means \"soft\".",
+                                       "korean":  "이 단어는 \"부드럽다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「やわらかい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_061",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "かたい",
+                      "english":  "hard",
+                      "korean":  "딱딱하다",
+                      "examples":  {
+                                       "english":  "This word means \"hard\".",
+                                       "korean":  "이 단어는 \"딱딱하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「かたい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_062",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "丸い",
+                      "english":  "round",
+                      "korean":  "둥글다",
+                      "examples":  {
+                                       "english":  "This word means \"round\".",
+                                       "korean":  "이 단어는 \"둥글다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「丸い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_063",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "四角い",
+                      "english":  "square",
+                      "korean":  "네모나다",
+                      "examples":  {
+                                       "english":  "This word means \"square\".",
+                                       "korean":  "이 단어는 \"네모나다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「四角い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_064",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "赤い",
+                      "english":  "red",
+                      "korean":  "빨갛다",
+                      "examples":  {
+                                       "english":  "This word means \"red\".",
+                                       "korean":  "이 단어는 \"빨갛다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「赤い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_065",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "青い",
+                      "english":  "blue",
+                      "korean":  "파랗다",
+                      "examples":  {
+                                       "english":  "This word means \"blue\".",
+                                       "korean":  "이 단어는 \"파랗다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「青い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_066",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "白い",
+                      "english":  "white",
+                      "korean":  "하얗다",
+                      "examples":  {
+                                       "english":  "This word means \"white\".",
+                                       "korean":  "이 단어는 \"하얗다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「白い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_067",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "黒い",
+                      "english":  "black",
+                      "korean":  "검다",
+                      "examples":  {
+                                       "english":  "This word means \"black\".",
+                                       "korean":  "이 단어는 \"검다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「黒い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_068",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "黄色い",
+                      "english":  "yellow",
+                      "korean":  "노랗다",
+                      "examples":  {
+                                       "english":  "This word means \"yellow\".",
+                                       "korean":  "이 단어는 \"노랗다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「黄色い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_069",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "緑の",
+                      "english":  "green",
+                      "korean":  "초록색의",
+                      "examples":  {
+                                       "english":  "This word means \"green\".",
+                                       "korean":  "이 단어는 \"초록색의\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「緑の」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_070",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "元気な",
+                      "english":  "healthy",
+                      "korean":  "건강하다",
+                      "examples":  {
+                                       "english":  "This word means \"healthy\".",
+                                       "korean":  "이 단어는 \"건강하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「元気な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_071",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "眠い",
+                      "english":  "sleepy",
+                      "korean":  "졸리다",
+                      "examples":  {
+                                       "english":  "This word means \"sleepy\".",
+                                       "korean":  "이 단어는 \"졸리다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「眠い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_072",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "痛い",
+                      "english":  "painful",
+                      "korean":  "아프다",
+                      "examples":  {
+                                       "english":  "This word means \"painful\".",
+                                       "korean":  "이 단어는 \"아프다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「痛い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_073",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "若い",
+                      "english":  "young",
+                      "korean":  "젊다",
+                      "examples":  {
+                                       "english":  "This word means \"young\".",
+                                       "korean":  "이 단어는 \"젊다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「若い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_074",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "深い",
+                      "english":  "deep",
+                      "korean":  "깊다",
+                      "examples":  {
+                                       "english":  "This word means \"deep\".",
+                                       "korean":  "이 단어는 \"깊다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「深い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_075",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "浅い",
+                      "english":  "shallow",
+                      "korean":  "얕다",
+                      "examples":  {
+                                       "english":  "This word means \"shallow\".",
+                                       "korean":  "이 단어는 \"얕다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「浅い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_076",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "太い",
+                      "english":  "thick",
+                      "korean":  "굵다",
+                      "examples":  {
+                                       "english":  "This word means \"thick\".",
+                                       "korean":  "이 단어는 \"굵다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「太い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_077",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "細い",
+                      "english":  "thin",
+                      "korean":  "가늘다",
+                      "examples":  {
+                                       "english":  "This word means \"thin\".",
+                                       "korean":  "이 단어는 \"가늘다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「細い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_078",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "高い",
+                      "english":  "tall",
+                      "korean":  "키가 크다",
+                      "examples":  {
+                                       "english":  "This word means \"tall\".",
+                                       "korean":  "이 단어는 \"키가 크다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「高い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_079",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "低い",
+                      "english":  "low",
+                      "korean":  "낮다",
+                      "examples":  {
+                                       "english":  "This word means \"low\".",
+                                       "korean":  "이 단어는 \"낮다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「低い」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_080",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "柔らかな",
+                      "english":  "gentle",
+                      "korean":  "상냥하다",
+                      "examples":  {
+                                       "english":  "This word means \"gentle\".",
+                                       "korean":  "이 단어는 \"상냥하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「柔らかな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_081",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "厳しい",
+                      "english":  "strict",
+                      "korean":  "엄하다",
+                      "examples":  {
+                                       "english":  "This word means \"strict\".",
+                                       "korean":  "이 단어는 \"엄하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「厳しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_082",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "大切な",
+                      "english":  "important",
+                      "korean":  "중요하다",
+                      "examples":  {
+                                       "english":  "This word means \"important\".",
+                                       "korean":  "이 단어는 \"중요하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「大切な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_083",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "必要な",
+                      "english":  "necessary",
+                      "korean":  "필요하다",
+                      "examples":  {
+                                       "english":  "This word means \"necessary\".",
+                                       "korean":  "이 단어는 \"필요하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「必要な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_084",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "自由な",
+                      "english":  "free",
+                      "korean":  "자유롭다",
+                      "examples":  {
+                                       "english":  "This word means \"free\".",
+                                       "korean":  "이 단어는 \"자유롭다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「自由な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_085",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "自然な",
+                      "english":  "natural",
+                      "korean":  "자연스럽다",
+                      "examples":  {
+                                       "english":  "This word means \"natural\".",
+                                       "korean":  "이 단어는 \"자연스럽다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「自然な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_086",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "特別な",
+                      "english":  "special",
+                      "korean":  "특별하다",
+                      "examples":  {
+                                       "english":  "This word means \"special\".",
+                                       "korean":  "이 단어는 \"특별하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「特別な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_087",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "普通の",
+                      "english":  "ordinary",
+                      "korean":  "보통의",
+                      "examples":  {
+                                       "english":  "This word means \"ordinary\".",
+                                       "korean":  "이 단어는 \"보통의\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「普通の」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_088",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "本当の",
+                      "english":  "real",
+                      "korean":  "진짜의",
+                      "examples":  {
+                                       "english":  "This word means \"real\".",
+                                       "korean":  "이 단어는 \"진짜의\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「本当の」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_089",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "十分な",
+                      "english":  "enough",
+                      "korean":  "충분하다",
+                      "examples":  {
+                                       "english":  "This word means \"enough\".",
+                                       "korean":  "이 단어는 \"충분하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「十分な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_090",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "不足した",
+                      "english":  "insufficient",
+                      "korean":  "부족하다",
+                      "examples":  {
+                                       "english":  "This word means \"insufficient\".",
+                                       "korean":  "이 단어는 \"부족하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「不足した」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_091",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "可能な",
+                      "english":  "possible",
+                      "korean":  "가능하다",
+                      "examples":  {
+                                       "english":  "This word means \"possible\".",
+                                       "korean":  "이 단어는 \"가능하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「可能な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_092",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "無理な",
+                      "english":  "impossible",
+                      "korean":  "무리다",
+                      "examples":  {
+                                       "english":  "This word means \"impossible\".",
+                                       "korean":  "이 단어는 \"무리다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「無理な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_093",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "好きな",
+                      "english":  "favorite",
+                      "korean":  "좋아하는",
+                      "examples":  {
+                                       "english":  "This word means \"favorite\".",
+                                       "korean":  "이 단어는 \"좋아하는\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「好きな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_094",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "嫌いな",
+                      "english":  "disliked",
+                      "korean":  "싫어하는",
+                      "examples":  {
+                                       "english":  "This word means \"disliked\".",
+                                       "korean":  "이 단어는 \"싫어하는\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「嫌いな」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_095",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "上手な",
+                      "english":  "skillful",
+                      "korean":  "잘하다",
+                      "examples":  {
+                                       "english":  "This word means \"skillful\".",
+                                       "korean":  "이 단어는 \"잘하다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「上手な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_096",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "下手な",
+                      "english":  "unskillful",
+                      "korean":  "서툴다",
+                      "examples":  {
+                                       "english":  "This word means \"unskillful\".",
+                                       "korean":  "이 단어는 \"서툴다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「下手な」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_097",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "眠たい",
+                      "english":  "drowsy",
+                      "korean":  "졸립다",
+                      "examples":  {
+                                       "english":  "This word means \"drowsy\".",
+                                       "korean":  "이 단어는 \"졸립다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「眠たい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_098",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "寂しい",
+                      "english":  "lonely",
+                      "korean":  "외롭다",
+                      "examples":  {
+                                       "english":  "This word means \"lonely\".",
+                                       "korean":  "이 단어는 \"외롭다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「寂しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_099",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "うれしい",
+                      "english":  "happy",
+                      "korean":  "기쁘다",
+                      "examples":  {
+                                       "english":  "This word means \"happy\".",
+                                       "korean":  "이 단어는 \"기쁘다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「うれしい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adjective_100",
+                      "category":  "adjective",
+                      "categoryJa":  "形容詞",
+                      "difficulty":  1,
+                      "japanese":  "悲しい",
+                      "english":  "sad",
+                      "korean":  "슬프다",
+                      "examples":  {
+                                       "english":  "This word means \"sad\".",
+                                       "korean":  "이 단어는 \"슬프다\"라는 뜻이에요.",
+                                       "japanese":  "この言葉は「悲しい」という意味です。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_001",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "いつも",
+                      "english":  "always",
+                      "korean":  "항상",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"always\".",
+                                       "korean":  "저는 \"항상\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「いつも」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_002",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "よく",
+                      "english":  "often",
+                      "korean":  "자주",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"often\".",
+                                       "korean":  "저는 \"자주\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「よく」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_003",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "時々",
+                      "english":  "sometimes",
+                      "korean":  "가끔",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"sometimes\".",
+                                       "korean":  "저는 \"가끔\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「時々」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_004",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "たまに",
+                      "english":  "occasionally",
+                      "korean":  "때때로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"occasionally\".",
+                                       "korean":  "저는 \"때때로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「たまに」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_005",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "あまり",
+                      "english":  "not very",
+                      "korean":  "별로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"not very\".",
+                                       "korean":  "저는 \"별로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「あまり」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_006",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "全然",
+                      "english":  "not at all",
+                      "korean":  "전혀",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"not at all\".",
+                                       "korean":  "저는 \"전혀\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「全然」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_007",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "すぐ",
+                      "english":  "soon",
+                      "korean":  "곧",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"soon\".",
+                                       "korean":  "저는 \"곧\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「すぐ」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_008",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "もう",
+                      "english":  "already",
+                      "korean":  "이미",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"already\".",
+                                       "korean":  "저는 \"이미\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「もう」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_009",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "まだ",
+                      "english":  "still",
+                      "korean":  "아직",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"still\".",
+                                       "korean":  "저는 \"아직\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「まだ」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_010",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "これから",
+                      "english":  "from now",
+                      "korean":  "이제부터",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"from now\".",
+                                       "korean":  "저는 \"이제부터\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「これから」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_011",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "今",
+                      "english":  "now",
+                      "korean":  "지금",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"now\".",
+                                       "korean":  "저는 \"지금\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「今」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_012",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "後で",
+                      "english":  "later",
+                      "korean":  "나중에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"later\".",
+                                       "korean":  "저는 \"나중에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「後で」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_013",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "前に",
+                      "english":  "before",
+                      "korean":  "전에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"before\".",
+                                       "korean":  "저는 \"전에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「前に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_014",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "先に",
+                      "english":  "first",
+                      "korean":  "먼저",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"first\".",
+                                       "korean":  "저는 \"먼저\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「先に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_015",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "次に",
+                      "english":  "next",
+                      "korean":  "다음에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"next\".",
+                                       "korean":  "저는 \"다음에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「次に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_016",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "一緒に",
+                      "english":  "together",
+                      "korean":  "함께",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"together\".",
+                                       "korean":  "저는 \"함께\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「一緒に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_017",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "一人で",
+                      "english":  "alone",
+                      "korean":  "혼자",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"alone\".",
+                                       "korean":  "저는 \"혼자\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「一人で」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_018",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "ゆっくり",
+                      "english":  "slowly",
+                      "korean":  "천천히",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"slowly\".",
+                                       "korean":  "저는 \"천천히\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「ゆっくり」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_019",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "早く",
+                      "english":  "early",
+                      "korean":  "일찍",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"early\".",
+                                       "korean":  "저는 \"일찍\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「早く」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_020",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "速く",
+                      "english":  "quickly",
+                      "korean":  "빨리",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"quickly\".",
+                                       "korean":  "저는 \"빨리\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「速く」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_021",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "静かに",
+                      "english":  "quietly",
+                      "korean":  "조용히",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"quietly\".",
+                                       "korean":  "저는 \"조용히\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「静かに」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_022",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "はっきり",
+                      "english":  "clearly",
+                      "korean":  "분명히",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"clearly\".",
+                                       "korean":  "저는 \"분명히\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「はっきり」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_023",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "しっかり",
+                      "english":  "firmly",
+                      "korean":  "확실히",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"firmly\".",
+                                       "korean":  "저는 \"확실히\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「しっかり」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_024",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "きちんと",
+                      "english":  "properly",
+                      "korean":  "제대로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"properly\".",
+                                       "korean":  "저는 \"제대로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「きちんと」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_025",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "ちょうど",
+                      "english":  "exactly",
+                      "korean":  "딱",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"exactly\".",
+                                       "korean":  "저는 \"딱\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「ちょうど」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_026",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "だいたい",
+                      "english":  "roughly",
+                      "korean":  "대략",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"roughly\".",
+                                       "korean":  "저는 \"대략\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「だいたい」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_027",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "少し",
+                      "english":  "a little",
+                      "korean":  "조금",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"a little\".",
+                                       "korean":  "저는 \"조금\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「少し」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_028",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "たくさん",
+                      "english":  "a lot",
+                      "korean":  "많이",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"a lot\".",
+                                       "korean":  "저는 \"많이\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「たくさん」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_029",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "全部",
+                      "english":  "all",
+                      "korean":  "전부",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"all\".",
+                                       "korean":  "저는 \"전부\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「全部」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_030",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "半分",
+                      "english":  "half",
+                      "korean":  "반",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"half\".",
+                                       "korean":  "저는 \"반\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「半分」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_031",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "もう一度",
+                      "english":  "again",
+                      "korean":  "다시 한번",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"again\".",
+                                       "korean":  "저는 \"다시 한번\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「もう一度」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_032",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "初めて",
+                      "english":  "for the first time",
+                      "korean":  "처음으로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"for the first time\".",
+                                       "korean":  "저는 \"처음으로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「初めて」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_033",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "最近",
+                      "english":  "recently",
+                      "korean":  "최근에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"recently\".",
+                                       "korean":  "저는 \"최근에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「最近」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_034",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "毎日",
+                      "english":  "every day",
+                      "korean":  "매일",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"every day\".",
+                                       "korean":  "저는 \"매일\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「毎日」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_035",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "毎週",
+                      "english":  "every week",
+                      "korean":  "매주",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"every week\".",
+                                       "korean":  "저는 \"매주\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「毎週」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_036",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "毎月",
+                      "english":  "every month",
+                      "korean":  "매달",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"every month\".",
+                                       "korean":  "저는 \"매달\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「毎月」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_037",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "毎年",
+                      "english":  "every year",
+                      "korean":  "매년",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"every year\".",
+                                       "korean":  "저는 \"매년\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「毎年」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_038",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "昨日",
+                      "english":  "yesterday",
+                      "korean":  "어제",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"yesterday\".",
+                                       "korean":  "저는 \"어제\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「昨日」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_039",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "今日",
+                      "english":  "today",
+                      "korean":  "오늘",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"today\".",
+                                       "korean":  "저는 \"오늘\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「今日」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_040",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "明日",
+                      "english":  "tomorrow",
+                      "korean":  "내일",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"tomorrow\".",
+                                       "korean":  "저는 \"내일\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「明日」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_041",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "朝に",
+                      "english":  "in the morning",
+                      "korean":  "아침에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"in the morning\".",
+                                       "korean":  "저는 \"아침에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「朝に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_042",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "昼に",
+                      "english":  "at noon",
+                      "korean":  "낮에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"at noon\".",
+                                       "korean":  "저는 \"낮에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「昼に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_043",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "夜に",
+                      "english":  "at night",
+                      "korean":  "밤에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"at night\".",
+                                       "korean":  "저는 \"밤에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「夜に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_044",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "ここで",
+                      "english":  "here",
+                      "korean":  "여기서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"here\".",
+                                       "korean":  "저는 \"여기서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「ここで」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_045",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "そこで",
+                      "english":  "there",
+                      "korean":  "거기서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"there\".",
+                                       "korean":  "저는 \"거기서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「そこで」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_046",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "あそこで",
+                      "english":  "over there",
+                      "korean":  "저기서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"over there\".",
+                                       "korean":  "저는 \"저기서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「あそこで」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_047",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "どこで",
+                      "english":  "where",
+                      "korean":  "어디서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"where\".",
+                                       "korean":  "저는 \"어디서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「どこで」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_048",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "家で",
+                      "english":  "at home",
+                      "korean":  "집에서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"at home\".",
+                                       "korean":  "저는 \"집에서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「家で」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_049",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "外で",
+                      "english":  "outside",
+                      "korean":  "밖에서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"outside\".",
+                                       "korean":  "저는 \"밖에서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「外で」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_050",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "中で",
+                      "english":  "inside",
+                      "korean":  "안에서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"inside\".",
+                                       "korean":  "저는 \"안에서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「中で」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_051",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "上に",
+                      "english":  "above",
+                      "korean":  "위에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"above\".",
+                                       "korean":  "저는 \"위에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「上に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_052",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "下に",
+                      "english":  "below",
+                      "korean":  "아래에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"below\".",
+                                       "korean":  "저는 \"아래에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「下に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_053",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "前に",
+                      "english":  "in front",
+                      "korean":  "앞에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"in front\".",
+                                       "korean":  "저는 \"앞에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「前に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_054",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "後ろに",
+                      "english":  "behind",
+                      "korean":  "뒤에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"behind\".",
+                                       "korean":  "저는 \"뒤에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「後ろに」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_055",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "右に",
+                      "english":  "to the right",
+                      "korean":  "오른쪽에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"to the right\".",
+                                       "korean":  "저는 \"오른쪽에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「右に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_056",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "左に",
+                      "english":  "to the left",
+                      "korean":  "왼쪽에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"to the left\".",
+                                       "korean":  "저는 \"왼쪽에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「左に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_057",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "近くに",
+                      "english":  "nearby",
+                      "korean":  "가까이에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"nearby\".",
+                                       "korean":  "저는 \"가까이에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「近くに」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_058",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "遠くに",
+                      "english":  "far away",
+                      "korean":  "멀리",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"far away\".",
+                                       "korean":  "저는 \"멀리\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「遠くに」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_059",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "本当に",
+                      "english":  "really",
+                      "korean":  "정말로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"really\".",
+                                       "korean":  "저는 \"정말로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「本当に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_060",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "多分",
+                      "english":  "probably",
+                      "korean":  "아마",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"probably\".",
+                                       "korean":  "저는 \"아마\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「多分」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_061",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "きっと",
+                      "english":  "surely",
+                      "korean":  "분명",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"surely\".",
+                                       "korean":  "저는 \"분명\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「きっと」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_062",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "もちろん",
+                      "english":  "of course",
+                      "korean":  "물론",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"of course\".",
+                                       "korean":  "저는 \"물론\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「もちろん」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_063",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "たぶん",
+                      "english":  "maybe",
+                      "korean":  "아마도",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"maybe\".",
+                                       "korean":  "저는 \"아마도\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「たぶん」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_064",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "もし",
+                      "english":  "if",
+                      "korean":  "만약",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"if\".",
+                                       "korean":  "저는 \"만약\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「もし」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_065",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "なぜ",
+                      "english":  "why",
+                      "korean":  "왜",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"why\".",
+                                       "korean":  "저는 \"왜\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「なぜ」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_066",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "どうして",
+                      "english":  "why",
+                      "korean":  "어째서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"why\".",
+                                       "korean":  "저는 \"어째서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「どうして」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_067",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "どうやって",
+                      "english":  "how",
+                      "korean":  "어떻게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"how\".",
+                                       "korean":  "저는 \"어떻게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「どうやって」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_068",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "いくら",
+                      "english":  "how much",
+                      "korean":  "얼마",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"how much\".",
+                                       "korean":  "저는 \"얼마\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「いくら」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_069",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "もっと",
+                      "english":  "more",
+                      "korean":  "더",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"more\".",
+                                       "korean":  "저는 \"더\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「もっと」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_070",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "一番",
+                      "english":  "the most",
+                      "korean":  "가장",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"the most\".",
+                                       "korean":  "저는 \"가장\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「一番」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_071",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "かなり",
+                      "english":  "quite",
+                      "korean":  "꽤",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"quite\".",
+                                       "korean":  "저는 \"꽤\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「かなり」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_072",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "とても",
+                      "english":  "very",
+                      "korean":  "매우",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"very\".",
+                                       "korean":  "저는 \"매우\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「とても」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_073",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "すごく",
+                      "english":  "very much",
+                      "korean":  "아주",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"very much\".",
+                                       "korean":  "저는 \"아주\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「すごく」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_074",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "少なくとも",
+                      "english":  "at least",
+                      "korean":  "적어도",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"at least\".",
+                                       "korean":  "저는 \"적어도\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「少なくとも」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_075",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "ほとんど",
+                      "english":  "almost",
+                      "korean":  "거의",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"almost\".",
+                                       "korean":  "저는 \"거의\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「ほとんど」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_076",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "必ず",
+                      "english":  "without fail",
+                      "korean":  "반드시",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"without fail\".",
+                                       "korean":  "저는 \"반드시\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「必ず」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_077",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "絶対に",
+                      "english":  "absolutely",
+                      "korean":  "절대로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"absolutely\".",
+                                       "korean":  "저는 \"절대로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「絶対に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_078",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "特に",
+                      "english":  "especially",
+                      "korean":  "특히",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"especially\".",
+                                       "korean":  "저는 \"특히\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「特に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_079",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "例えば",
+                      "english":  "for example",
+                      "korean":  "예를 들어",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"for example\".",
+                                       "korean":  "저는 \"예를 들어\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「例えば」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_080",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "だから",
+                      "english":  "therefore",
+                      "korean":  "그래서",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"therefore\".",
+                                       "korean":  "저는 \"그래서\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「だから」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_081",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "でも",
+                      "english":  "but",
+                      "korean":  "하지만",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"but\".",
+                                       "korean":  "저는 \"하지만\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「でも」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_082",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "そして",
+                      "english":  "and then",
+                      "korean":  "그리고",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"and then\".",
+                                       "korean":  "저는 \"그리고\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「そして」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_083",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "それから",
+                      "english":  "after that",
+                      "korean":  "그다음에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"after that\".",
+                                       "korean":  "저는 \"그다음에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「それから」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_084",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "まず",
+                      "english":  "first",
+                      "korean":  "우선",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"first\".",
+                                       "korean":  "저는 \"우선\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「まず」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_085",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "最後に",
+                      "english":  "finally",
+                      "korean":  "마지막으로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"finally\".",
+                                       "korean":  "저는 \"마지막으로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「最後に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_086",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "急に",
+                      "english":  "suddenly",
+                      "korean":  "갑자기",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"suddenly\".",
+                                       "korean":  "저는 \"갑자기\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「急に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_087",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "だんだん",
+                      "english":  "gradually",
+                      "korean":  "점점",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"gradually\".",
+                                       "korean":  "저는 \"점점\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「だんだん」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_088",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "別々に",
+                      "english":  "separately",
+                      "korean":  "따로따로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"separately\".",
+                                       "korean":  "저는 \"따로따로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「別々に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_089",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "同時に",
+                      "english":  "at the same time",
+                      "korean":  "동시에",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"at the same time\".",
+                                       "korean":  "저는 \"동시에\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「同時に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_090",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "正しく",
+                      "english":  "correctly",
+                      "korean":  "바르게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"correctly\".",
+                                       "korean":  "저는 \"바르게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「正しく」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_091",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "間違って",
+                      "english":  "wrongly",
+                      "korean":  "잘못",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"wrongly\".",
+                                       "korean":  "저는 \"잘못\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「間違って」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_092",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "簡単に",
+                      "english":  "easily",
+                      "korean":  "쉽게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"easily\".",
+                                       "korean":  "저는 \"쉽게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「簡単に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_093",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "難しく",
+                      "english":  "with difficulty",
+                      "korean":  "어렵게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"with difficulty\".",
+                                       "korean":  "저는 \"어렵게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「難しく」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_094",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "楽しく",
+                      "english":  "enjoyably",
+                      "korean":  "즐겁게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"enjoyably\".",
+                                       "korean":  "저는 \"즐겁게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「楽しく」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_095",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "安全に",
+                      "english":  "safely",
+                      "korean":  "안전하게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"safely\".",
+                                       "korean":  "저는 \"안전하게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「安全に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_096",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "自由に",
+                      "english":  "freely",
+                      "korean":  "자유롭게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"freely\".",
+                                       "korean":  "저는 \"자유롭게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「自由に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_097",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "自然に",
+                      "english":  "naturally",
+                      "korean":  "자연스럽게",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"naturally\".",
+                                       "korean":  "저는 \"자연스럽게\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「自然に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_098",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "直接",
+                      "english":  "directly",
+                      "korean":  "직접",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"directly\".",
+                                       "korean":  "저는 \"직접\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「直接」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_099",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "間接的に",
+                      "english":  "indirectly",
+                      "korean":  "간접적으로",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"indirectly\".",
+                                       "korean":  "저는 \"간접적으로\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「間接的に」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "adverb_100",
+                      "category":  "adverb",
+                      "categoryJa":  "副詞",
+                      "difficulty":  1,
+                      "japanese":  "毎回",
+                      "english":  "every time",
+                      "korean":  "매번",
+                      "examples":  {
+                                       "english":  "I make a sentence with \"every time\".",
+                                       "korean":  "저는 \"매번\"를 사용해서 문장을 만들어요.",
+                                       "japanese":  "私は「毎回」を使って文を作ります。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_001",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "おはよう",
+                      "english":  "good morning",
+                      "korean":  "좋은 아침",
+                      "examples":  {
+                                       "english":  "I use \"good morning\" in conversation.",
+                                       "korean":  "대화에서 \"좋은 아침\"를 사용해요.",
+                                       "japanese":  "会話で「おはよう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_002",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "こんにちは",
+                      "english":  "hello",
+                      "korean":  "안녕하세요",
+                      "examples":  {
+                                       "english":  "I use \"hello\" in conversation.",
+                                       "korean":  "대화에서 \"안녕하세요\"를 사용해요.",
+                                       "japanese":  "会話で「こんにちは」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_003",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "こんばんは",
+                      "english":  "good evening",
+                      "korean":  "안녕하세요",
+                      "examples":  {
+                                       "english":  "I use \"good evening\" in conversation.",
+                                       "korean":  "대화에서 \"안녕하세요\"를 사용해요.",
+                                       "japanese":  "会話で「こんばんは」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_004",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "さようなら",
+                      "english":  "goodbye",
+                      "korean":  "안녕히 가세요",
+                      "examples":  {
+                                       "english":  "I use \"goodbye\" in conversation.",
+                                       "korean":  "대화에서 \"안녕히 가세요\"를 사용해요.",
+                                       "japanese":  "会話で「さようなら」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_005",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "またね",
+                      "english":  "see you",
+                      "korean":  "또 봐요",
+                      "examples":  {
+                                       "english":  "I use \"see you\" in conversation.",
+                                       "korean":  "대화에서 \"또 봐요\"를 사용해요.",
+                                       "japanese":  "会話で「またね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_006",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ありがとう",
+                      "english":  "thank you",
+                      "korean":  "고마워요",
+                      "examples":  {
+                                       "english":  "I use \"thank you\" in conversation.",
+                                       "korean":  "대화에서 \"고마워요\"를 사용해요.",
+                                       "japanese":  "会話で「ありがとう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_007",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ありがとうございます",
+                      "english":  "thank you very much",
+                      "korean":  "감사합니다",
+                      "examples":  {
+                                       "english":  "I use \"thank you very much\" in conversation.",
+                                       "korean":  "대화에서 \"감사합니다\"를 사용해요.",
+                                       "japanese":  "会話で「ありがとうございます」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_008",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "どういたしまして",
+                      "english":  "you are welcome",
+                      "korean":  "천만에요",
+                      "examples":  {
+                                       "english":  "I use \"you are welcome\" in conversation.",
+                                       "korean":  "대화에서 \"천만에요\"를 사용해요.",
+                                       "japanese":  "会話で「どういたしまして」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_009",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "すみません",
+                      "english":  "excuse me",
+                      "korean":  "죄송합니다",
+                      "examples":  {
+                                       "english":  "I use \"excuse me\" in conversation.",
+                                       "korean":  "대화에서 \"죄송합니다\"를 사용해요.",
+                                       "japanese":  "会話で「すみません」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_010",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ごめんなさい",
+                      "english":  "I am sorry",
+                      "korean":  "미안합니다",
+                      "examples":  {
+                                       "english":  "I use \"I am sorry\" in conversation.",
+                                       "korean":  "대화에서 \"미안합니다\"를 사용해요.",
+                                       "japanese":  "会話で「ごめんなさい」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_011",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "お願いします",
+                      "english":  "please",
+                      "korean":  "부탁합니다",
+                      "examples":  {
+                                       "english":  "I use \"please\" in conversation.",
+                                       "korean":  "대화에서 \"부탁합니다\"를 사용해요.",
+                                       "japanese":  "会話で「お願いします」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_012",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "はい",
+                      "english":  "yes",
+                      "korean":  "네",
+                      "examples":  {
+                                       "english":  "I use \"yes\" in conversation.",
+                                       "korean":  "대화에서 \"네\"를 사용해요.",
+                                       "japanese":  "会話で「はい」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_013",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "いいえ",
+                      "english":  "no",
+                      "korean":  "아니요",
+                      "examples":  {
+                                       "english":  "I use \"no\" in conversation.",
+                                       "korean":  "대화에서 \"아니요\"를 사용해요.",
+                                       "japanese":  "会話で「いいえ」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_014",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "大丈夫です",
+                      "english":  "it is okay",
+                      "korean":  "괜찮아요",
+                      "examples":  {
+                                       "english":  "I use \"it is okay\" in conversation.",
+                                       "korean":  "대화에서 \"괜찮아요\"를 사용해요.",
+                                       "japanese":  "会話で「大丈夫です」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_015",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "分かりました",
+                      "english":  "I understand",
+                      "korean":  "알겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"I understand\" in conversation.",
+                                       "korean":  "대화에서 \"알겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「分かりました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_016",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "分かりません",
+                      "english":  "I do not understand",
+                      "korean":  "모르겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"I do not understand\" in conversation.",
+                                       "korean":  "대화에서 \"모르겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「分かりません」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_017",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "もう一度お願いします",
+                      "english":  "please say it again",
+                      "korean":  "다시 한번 말해 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please say it again\" in conversation.",
+                                       "korean":  "대화에서 \"다시 한번 말해 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「もう一度お願いします」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_018",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ゆっくりお願いします",
+                      "english":  "please speak slowly",
+                      "korean":  "천천히 말해 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please speak slowly\" in conversation.",
+                                       "korean":  "대화에서 \"천천히 말해 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「ゆっくりお願いします」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_019",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "これは何ですか",
+                      "english":  "what is this",
+                      "korean":  "이것은 무엇인가요",
+                      "examples":  {
+                                       "english":  "I use \"what is this\" in conversation.",
+                                       "korean":  "대화에서 \"이것은 무엇인가요\"를 사용해요.",
+                                       "japanese":  "会話で「これは何ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_020",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "いくらですか",
+                      "english":  "how much is it",
+                      "korean":  "얼마예요",
+                      "examples":  {
+                                       "english":  "I use \"how much is it\" in conversation.",
+                                       "korean":  "대화에서 \"얼마예요\"를 사용해요.",
+                                       "japanese":  "会話で「いくらですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_021",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "どこですか",
+                      "english":  "where is it",
+                      "korean":  "어디예요",
+                      "examples":  {
+                                       "english":  "I use \"where is it\" in conversation.",
+                                       "korean":  "대화에서 \"어디예요\"를 사용해요.",
+                                       "japanese":  "会話で「どこですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_022",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "トイレはどこですか",
+                      "english":  "where is the restroom",
+                      "korean":  "화장실은 어디예요",
+                      "examples":  {
+                                       "english":  "I use \"where is the restroom\" in conversation.",
+                                       "korean":  "대화에서 \"화장실은 어디예요\"를 사용해요.",
+                                       "japanese":  "会話で「トイレはどこですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_023",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "助けてください",
+                      "english":  "please help me",
+                      "korean":  "도와주세요",
+                      "examples":  {
+                                       "english":  "I use \"please help me\" in conversation.",
+                                       "korean":  "대화에서 \"도와주세요\"를 사용해요.",
+                                       "japanese":  "会話で「助けてください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_024",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "名前は何ですか",
+                      "english":  "what is your name",
+                      "korean":  "이름이 뭐예요",
+                      "examples":  {
+                                       "english":  "I use \"what is your name\" in conversation.",
+                                       "korean":  "대화에서 \"이름이 뭐예요\"를 사용해요.",
+                                       "japanese":  "会話で「名前は何ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_025",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "私の名前は",
+                      "english":  "my name is",
+                      "korean":  "제 이름은",
+                      "examples":  {
+                                       "english":  "I use \"my name is\" in conversation.",
+                                       "korean":  "대화에서 \"제 이름은\"를 사용해요.",
+                                       "japanese":  "会話で「私の名前は」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_026",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "はじめまして",
+                      "english":  "nice to meet you",
+                      "korean":  "처음 뵙겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"nice to meet you\" in conversation.",
+                                       "korean":  "대화에서 \"처음 뵙겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「はじめまして」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_027",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "よろしくお願いします",
+                      "english":  "nice to meet you",
+                      "korean":  "잘 부탁드립니다",
+                      "examples":  {
+                                       "english":  "I use \"nice to meet you\" in conversation.",
+                                       "korean":  "대화에서 \"잘 부탁드립니다\"를 사용해요.",
+                                       "japanese":  "会話で「よろしくお願いします」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_028",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "お元気ですか",
+                      "english":  "how are you",
+                      "korean":  "잘 지내세요",
+                      "examples":  {
+                                       "english":  "I use \"how are you\" in conversation.",
+                                       "korean":  "대화에서 \"잘 지내세요\"를 사용해요.",
+                                       "japanese":  "会話で「お元気ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_029",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "元気です",
+                      "english":  "I am fine",
+                      "korean":  "잘 지내요",
+                      "examples":  {
+                                       "english":  "I use \"I am fine\" in conversation.",
+                                       "korean":  "대화에서 \"잘 지내요\"를 사용해요.",
+                                       "japanese":  "会話で「元気です」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_030",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "お疲れさま",
+                      "english":  "good work",
+                      "korean":  "수고했어요",
+                      "examples":  {
+                                       "english":  "I use \"good work\" in conversation.",
+                                       "korean":  "대화에서 \"수고했어요\"를 사용해요.",
+                                       "japanese":  "会話で「お疲れさま」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_031",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "いただきます",
+                      "english":  "let us eat",
+                      "korean":  "잘 먹겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"let us eat\" in conversation.",
+                                       "korean":  "대화에서 \"잘 먹겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「いただきます」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_032",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ごちそうさま",
+                      "english":  "thank you for the meal",
+                      "korean":  "잘 먹었습니다",
+                      "examples":  {
+                                       "english":  "I use \"thank you for the meal\" in conversation.",
+                                       "korean":  "대화에서 \"잘 먹었습니다\"를 사용해요.",
+                                       "japanese":  "会話で「ごちそうさま」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_033",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "おめでとう",
+                      "english":  "congratulations",
+                      "korean":  "축하해요",
+                      "examples":  {
+                                       "english":  "I use \"congratulations\" in conversation.",
+                                       "korean":  "대화에서 \"축하해요\"를 사용해요.",
+                                       "japanese":  "会話で「おめでとう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_034",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "気をつけて",
+                      "english":  "take care",
+                      "korean":  "조심하세요",
+                      "examples":  {
+                                       "english":  "I use \"take care\" in conversation.",
+                                       "korean":  "대화에서 \"조심하세요\"를 사용해요.",
+                                       "japanese":  "会話で「気をつけて」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_035",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "行ってきます",
+                      "english":  "I am leaving",
+                      "korean":  "다녀오겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"I am leaving\" in conversation.",
+                                       "korean":  "대화에서 \"다녀오겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「行ってきます」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_036",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "行ってらっしゃい",
+                      "english":  "see you later",
+                      "korean":  "다녀오세요",
+                      "examples":  {
+                                       "english":  "I use \"see you later\" in conversation.",
+                                       "korean":  "대화에서 \"다녀오세요\"를 사용해요.",
+                                       "japanese":  "会話で「行ってらっしゃい」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_037",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ただいま",
+                      "english":  "I am home",
+                      "korean":  "다녀왔습니다",
+                      "examples":  {
+                                       "english":  "I use \"I am home\" in conversation.",
+                                       "korean":  "대화에서 \"다녀왔습니다\"를 사용해요.",
+                                       "japanese":  "会話で「ただいま」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_038",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "おかえり",
+                      "english":  "welcome back",
+                      "korean":  "어서 와요",
+                      "examples":  {
+                                       "english":  "I use \"welcome back\" in conversation.",
+                                       "korean":  "대화에서 \"어서 와요\"를 사용해요.",
+                                       "japanese":  "会話で「おかえり」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_039",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "少し待ってください",
+                      "english":  "please wait a moment",
+                      "korean":  "잠시만 기다려 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please wait a moment\" in conversation.",
+                                       "korean":  "대화에서 \"잠시만 기다려 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「少し待ってください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_040",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "もう大丈夫です",
+                      "english":  "I am okay now",
+                      "korean":  "이제 괜찮아요",
+                      "examples":  {
+                                       "english":  "I use \"I am okay now\" in conversation.",
+                                       "korean":  "대화에서 \"이제 괜찮아요\"를 사용해요.",
+                                       "japanese":  "会話で「もう大丈夫です」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_041",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "問題ありません",
+                      "english":  "no problem",
+                      "korean":  "문제없어요",
+                      "examples":  {
+                                       "english":  "I use \"no problem\" in conversation.",
+                                       "korean":  "대화에서 \"문제없어요\"를 사용해요.",
+                                       "japanese":  "会話で「問題ありません」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_042",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "写真を撮ってもいいですか",
+                      "english":  "may I take a photo",
+                      "korean":  "사진을 찍어도 될까요",
+                      "examples":  {
+                                       "english":  "I use \"may I take a photo\" in conversation.",
+                                       "korean":  "대화에서 \"사진을 찍어도 될까요\"를 사용해요.",
+                                       "japanese":  "会話で「写真を撮ってもいいですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_043",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "予約しています",
+                      "english":  "I have a reservation",
+                      "korean":  "예약했습니다",
+                      "examples":  {
+                                       "english":  "I use \"I have a reservation\" in conversation.",
+                                       "korean":  "대화에서 \"예약했습니다\"를 사용해요.",
+                                       "japanese":  "会話で「予約しています」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_044",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "注文したいです",
+                      "english":  "I would like to order",
+                      "korean":  "주문하고 싶어요",
+                      "examples":  {
+                                       "english":  "I use \"I would like to order\" in conversation.",
+                                       "korean":  "대화에서 \"주문하고 싶어요\"를 사용해요.",
+                                       "japanese":  "会話で「注文したいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_045",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "おすすめは何ですか",
+                      "english":  "what do you recommend",
+                      "korean":  "추천은 무엇인가요",
+                      "examples":  {
+                                       "english":  "I use \"what do you recommend\" in conversation.",
+                                       "korean":  "대화에서 \"추천은 무엇인가요\"를 사용해요.",
+                                       "japanese":  "会話で「おすすめは何ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_046",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "水をください",
+                      "english":  "please give me water",
+                      "korean":  "물을 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please give me water\" in conversation.",
+                                       "korean":  "대화에서 \"물을 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「水をください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_047",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "お会計お願いします",
+                      "english":  "check please",
+                      "korean":  "계산해 주세요",
+                      "examples":  {
+                                       "english":  "I use \"check please\" in conversation.",
+                                       "korean":  "대화에서 \"계산해 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「お会計お願いします」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_048",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "袋はいりません",
+                      "english":  "I do not need a bag",
+                      "korean":  "봉투는 필요 없어요",
+                      "examples":  {
+                                       "english":  "I use \"I do not need a bag\" in conversation.",
+                                       "korean":  "대화에서 \"봉투는 필요 없어요\"를 사용해요.",
+                                       "japanese":  "会話で「袋はいりません」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_049",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "カードで払います",
+                      "english":  "I will pay by card",
+                      "korean":  "카드로 낼게요",
+                      "examples":  {
+                                       "english":  "I use \"I will pay by card\" in conversation.",
+                                       "korean":  "대화에서 \"카드로 낼게요\"를 사용해요.",
+                                       "japanese":  "会話で「カードで払います」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_050",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "現金で払います",
+                      "english":  "I will pay in cash",
+                      "korean":  "현금으로 낼게요",
+                      "examples":  {
+                                       "english":  "I use \"I will pay in cash\" in conversation.",
+                                       "korean":  "대화에서 \"현금으로 낼게요\"를 사용해요.",
+                                       "japanese":  "会話で「現金で払います」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_051",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "道に迷いました",
+                      "english":  "I am lost",
+                      "korean":  "길을 잃었어요",
+                      "examples":  {
+                                       "english":  "I use \"I am lost\" in conversation.",
+                                       "korean":  "대화에서 \"길을 잃었어요\"를 사용해요.",
+                                       "japanese":  "会話で「道に迷いました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_052",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "駅まで行きたいです",
+                      "english":  "I want to go to the station",
+                      "korean":  "역까지 가고 싶어요",
+                      "examples":  {
+                                       "english":  "I use \"I want to go to the station\" in conversation.",
+                                       "korean":  "대화에서 \"역까지 가고 싶어요\"를 사용해요.",
+                                       "japanese":  "会話で「駅まで行きたいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_053",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "右に曲がってください",
+                      "english":  "please turn right",
+                      "korean":  "오른쪽으로 돌아 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please turn right\" in conversation.",
+                                       "korean":  "대화에서 \"오른쪽으로 돌아 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「右に曲がってください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_054",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "左に曲がってください",
+                      "english":  "please turn left",
+                      "korean":  "왼쪽으로 돌아 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please turn left\" in conversation.",
+                                       "korean":  "대화에서 \"왼쪽으로 돌아 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「左に曲がってください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_055",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "まっすぐ行ってください",
+                      "english":  "please go straight",
+                      "korean":  "똑바로 가 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please go straight\" in conversation.",
+                                       "korean":  "대화에서 \"똑바로 가 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「まっすぐ行ってください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_056",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ここで降ります",
+                      "english":  "I will get off here",
+                      "korean":  "여기서 내릴게요",
+                      "examples":  {
+                                       "english":  "I use \"I will get off here\" in conversation.",
+                                       "korean":  "대화에서 \"여기서 내릴게요\"를 사용해요.",
+                                       "japanese":  "会話で「ここで降ります」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_057",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "切符をください",
+                      "english":  "please give me a ticket",
+                      "korean":  "표를 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please give me a ticket\" in conversation.",
+                                       "korean":  "대화에서 \"표를 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「切符をください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_058",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "何時ですか",
+                      "english":  "what time is it",
+                      "korean":  "몇 시예요",
+                      "examples":  {
+                                       "english":  "I use \"what time is it\" in conversation.",
+                                       "korean":  "대화에서 \"몇 시예요\"를 사용해요.",
+                                       "japanese":  "会話で「何時ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_059",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "今日は何日ですか",
+                      "english":  "what date is it today",
+                      "korean":  "오늘은 며칠이에요",
+                      "examples":  {
+                                       "english":  "I use \"what date is it today\" in conversation.",
+                                       "korean":  "대화에서 \"오늘은 며칠이에요\"를 사용해요.",
+                                       "japanese":  "会話で「今日は何日ですか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_060",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "天気がいいですね",
+                      "english":  "the weather is nice",
+                      "korean":  "날씨가 좋네요",
+                      "examples":  {
+                                       "english":  "I use \"the weather is nice\" in conversation.",
+                                       "korean":  "대화에서 \"날씨가 좋네요\"를 사용해요.",
+                                       "japanese":  "会話で「天気がいいですね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_061",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "暑いですね",
+                      "english":  "it is hot",
+                      "korean":  "덥네요",
+                      "examples":  {
+                                       "english":  "I use \"it is hot\" in conversation.",
+                                       "korean":  "대화에서 \"덥네요\"를 사용해요.",
+                                       "japanese":  "会話で「暑いですね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_062",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "寒いですね",
+                      "english":  "it is cold",
+                      "korean":  "춥네요",
+                      "examples":  {
+                                       "english":  "I use \"it is cold\" in conversation.",
+                                       "korean":  "대화에서 \"춥네요\"를 사용해요.",
+                                       "japanese":  "会話で「寒いですね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_063",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "楽しかったです",
+                      "english":  "it was fun",
+                      "korean":  "즐거웠어요",
+                      "examples":  {
+                                       "english":  "I use \"it was fun\" in conversation.",
+                                       "korean":  "대화에서 \"즐거웠어요\"를 사용해요.",
+                                       "japanese":  "会話で「楽しかったです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_064",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "おいしいです",
+                      "english":  "it is delicious",
+                      "korean":  "맛있어요",
+                      "examples":  {
+                                       "english":  "I use \"it is delicious\" in conversation.",
+                                       "korean":  "대화에서 \"맛있어요\"를 사용해요.",
+                                       "japanese":  "会話で「おいしいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_065",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "忙しいです",
+                      "english":  "I am busy",
+                      "korean":  "바빠요",
+                      "examples":  {
+                                       "english":  "I use \"I am busy\" in conversation.",
+                                       "korean":  "대화에서 \"바빠요\"를 사용해요.",
+                                       "japanese":  "会話で「忙しいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_066",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "疲れました",
+                      "english":  "I am tired",
+                      "korean":  "피곤해요",
+                      "examples":  {
+                                       "english":  "I use \"I am tired\" in conversation.",
+                                       "korean":  "대화에서 \"피곤해요\"를 사용해요.",
+                                       "japanese":  "会話で「疲れました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_067",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "眠いです",
+                      "english":  "I am sleepy",
+                      "korean":  "졸려요",
+                      "examples":  {
+                                       "english":  "I use \"I am sleepy\" in conversation.",
+                                       "korean":  "대화에서 \"졸려요\"를 사용해요.",
+                                       "japanese":  "会話で「眠いです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_068",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "うれしいです",
+                      "english":  "I am happy",
+                      "korean":  "기뻐요",
+                      "examples":  {
+                                       "english":  "I use \"I am happy\" in conversation.",
+                                       "korean":  "대화에서 \"기뻐요\"를 사용해요.",
+                                       "japanese":  "会話で「うれしいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_069",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "悲しいです",
+                      "english":  "I am sad",
+                      "korean":  "슬퍼요",
+                      "examples":  {
+                                       "english":  "I use \"I am sad\" in conversation.",
+                                       "korean":  "대화에서 \"슬퍼요\"를 사용해요.",
+                                       "japanese":  "会話で「悲しいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_070",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "難しいです",
+                      "english":  "it is difficult",
+                      "korean":  "어려워요",
+                      "examples":  {
+                                       "english":  "I use \"it is difficult\" in conversation.",
+                                       "korean":  "대화에서 \"어려워요\"를 사용해요.",
+                                       "japanese":  "会話で「難しいです」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_071",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "簡単です",
+                      "english":  "it is easy",
+                      "korean":  "쉬워요",
+                      "examples":  {
+                                       "english":  "I use \"it is easy\" in conversation.",
+                                       "korean":  "대화에서 \"쉬워요\"를 사용해요.",
+                                       "japanese":  "会話で「簡単です」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_072",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "もう一回",
+                      "english":  "one more time",
+                      "korean":  "한 번 더",
+                      "examples":  {
+                                       "english":  "I use \"one more time\" in conversation.",
+                                       "korean":  "대화에서 \"한 번 더\"를 사용해요.",
+                                       "japanese":  "会話で「もう一回」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_073",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "頑張ります",
+                      "english":  "I will do my best",
+                      "korean":  "열심히 할게요",
+                      "examples":  {
+                                       "english":  "I use \"I will do my best\" in conversation.",
+                                       "korean":  "대화에서 \"열심히 할게요\"를 사용해요.",
+                                       "japanese":  "会話で「頑張ります」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_074",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "いいですね",
+                      "english":  "that is nice",
+                      "korean":  "좋네요",
+                      "examples":  {
+                                       "english":  "I use \"that is nice\" in conversation.",
+                                       "korean":  "대화에서 \"좋네요\"를 사용해요.",
+                                       "japanese":  "会話で「いいですね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_075",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "そうですね",
+                      "english":  "that is right",
+                      "korean":  "그렇네요",
+                      "examples":  {
+                                       "english":  "I use \"that is right\" in conversation.",
+                                       "korean":  "대화에서 \"그렇네요\"를 사용해요.",
+                                       "japanese":  "会話で「そうですね」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_076",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "違います",
+                      "english":  "that is different",
+                      "korean":  "달라요",
+                      "examples":  {
+                                       "english":  "I use \"that is different\" in conversation.",
+                                       "korean":  "대화에서 \"달라요\"를 사용해요.",
+                                       "japanese":  "会話で「違います」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_077",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "合っています",
+                      "english":  "that is correct",
+                      "korean":  "맞아요",
+                      "examples":  {
+                                       "english":  "I use \"that is correct\" in conversation.",
+                                       "korean":  "대화에서 \"맞아요\"를 사용해요.",
+                                       "japanese":  "会話で「合っています」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_078",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "間違えました",
+                      "english":  "I made a mistake",
+                      "korean":  "틀렸어요",
+                      "examples":  {
+                                       "english":  "I use \"I made a mistake\" in conversation.",
+                                       "korean":  "대화에서 \"틀렸어요\"를 사용해요.",
+                                       "japanese":  "会話で「間違えました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_079",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "覚えました",
+                      "english":  "I memorized it",
+                      "korean":  "외웠어요",
+                      "examples":  {
+                                       "english":  "I use \"I memorized it\" in conversation.",
+                                       "korean":  "대화에서 \"외웠어요\"를 사용해요.",
+                                       "japanese":  "会話で「覚えました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_080",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "忘れました",
+                      "english":  "I forgot",
+                      "korean":  "잊어버렸어요",
+                      "examples":  {
+                                       "english":  "I use \"I forgot\" in conversation.",
+                                       "korean":  "대화에서 \"잊어버렸어요\"를 사용해요.",
+                                       "japanese":  "会話で「忘れました」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_081",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "質問があります",
+                      "english":  "I have a question",
+                      "korean":  "질문이 있어요",
+                      "examples":  {
+                                       "english":  "I use \"I have a question\" in conversation.",
+                                       "korean":  "대화에서 \"질문이 있어요\"를 사용해요.",
+                                       "japanese":  "会話で「質問があります」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_082",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "ゆっくり話します",
+                      "english":  "I will speak slowly",
+                      "korean":  "천천히 말할게요",
+                      "examples":  {
+                                       "english":  "I use \"I will speak slowly\" in conversation.",
+                                       "korean":  "대화에서 \"천천히 말할게요\"를 사용해요.",
+                                       "japanese":  "会話で「ゆっくり話します」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_083",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "英語を話せますか",
+                      "english":  "can you speak English",
+                      "korean":  "영어를 할 수 있어요",
+                      "examples":  {
+                                       "english":  "I use \"can you speak English\" in conversation.",
+                                       "korean":  "대화에서 \"영어를 할 수 있어요\"를 사용해요.",
+                                       "japanese":  "会話で「英語を話せますか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_084",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "日本語を話せますか",
+                      "english":  "can you speak Japanese",
+                      "korean":  "일본어를 할 수 있어요",
+                      "examples":  {
+                                       "english":  "I use \"can you speak Japanese\" in conversation.",
+                                       "korean":  "대화에서 \"일본어를 할 수 있어요\"를 사용해요.",
+                                       "japanese":  "会話で「日本語を話せますか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_085",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "韓国語を話せますか",
+                      "english":  "can you speak Korean",
+                      "korean":  "한국어를 할 수 있어요",
+                      "examples":  {
+                                       "english":  "I use \"can you speak Korean\" in conversation.",
+                                       "korean":  "대화에서 \"한국어를 할 수 있어요\"를 사용해요.",
+                                       "japanese":  "会話で「韓国語を話せますか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_086",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "少しだけ話せます",
+                      "english":  "I can speak a little",
+                      "korean":  "조금 할 수 있어요",
+                      "examples":  {
+                                       "english":  "I use \"I can speak a little\" in conversation.",
+                                       "korean":  "대화에서 \"조금 할 수 있어요\"를 사용해요.",
+                                       "japanese":  "会話で「少しだけ話せます」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_087",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "勉強中です",
+                      "english":  "I am studying",
+                      "korean":  "공부 중이에요",
+                      "examples":  {
+                                       "english":  "I use \"I am studying\" in conversation.",
+                                       "korean":  "대화에서 \"공부 중이에요\"를 사용해요.",
+                                       "japanese":  "会話で「勉強中です」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_088",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "もう一度見ます",
+                      "english":  "I will look again",
+                      "korean":  "다시 볼게요",
+                      "examples":  {
+                                       "english":  "I use \"I will look again\" in conversation.",
+                                       "korean":  "대화에서 \"다시 볼게요\"를 사용해요.",
+                                       "japanese":  "会話で「もう一度見ます」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_089",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "答えを確認します",
+                      "english":  "I will check the answer",
+                      "korean":  "답을 확인할게요",
+                      "examples":  {
+                                       "english":  "I use \"I will check the answer\" in conversation.",
+                                       "korean":  "대화에서 \"답을 확인할게요\"를 사용해요.",
+                                       "japanese":  "会話で「答えを確認します」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_090",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "次の問題へ",
+                      "english":  "go to the next question",
+                      "korean":  "다음 문제로",
+                      "examples":  {
+                                       "english":  "I use \"go to the next question\" in conversation.",
+                                       "korean":  "대화에서 \"다음 문제로\"를 사용해요.",
+                                       "japanese":  "会話で「次の問題へ」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_091",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "始めましょう",
+                      "english":  "let us start",
+                      "korean":  "시작합시다",
+                      "examples":  {
+                                       "english":  "I use \"let us start\" in conversation.",
+                                       "korean":  "대화에서 \"시작합시다\"를 사용해요.",
+                                       "japanese":  "会話で「始めましょう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_092",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "終わりましょう",
+                      "english":  "let us finish",
+                      "korean":  "끝냅시다",
+                      "examples":  {
+                                       "english":  "I use \"let us finish\" in conversation.",
+                                       "korean":  "대화에서 \"끝냅시다\"를 사용해요.",
+                                       "japanese":  "会話で「終わりましょう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_093",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "休みましょう",
+                      "english":  "let us rest",
+                      "korean":  "쉽시다",
+                      "examples":  {
+                                       "english":  "I use \"let us rest\" in conversation.",
+                                       "korean":  "대화에서 \"쉽시다\"를 사용해요.",
+                                       "japanese":  "会話で「休みましょう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_094",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "また勉強しましょう",
+                      "english":  "let us study again",
+                      "korean":  "다시 공부합시다",
+                      "examples":  {
+                                       "english":  "I use \"let us study again\" in conversation.",
+                                       "korean":  "대화에서 \"다시 공부합시다\"를 사용해요.",
+                                       "japanese":  "会話で「また勉強しましょう」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_095",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "失礼します",
+                      "english":  "excuse me",
+                      "korean":  "실례합니다",
+                      "examples":  {
+                                       "english":  "I use \"excuse me\" in conversation.",
+                                       "korean":  "대화에서 \"실례합니다\"를 사용해요.",
+                                       "japanese":  "会話で「失礼します」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_096",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "お先に失礼します",
+                      "english":  "I will leave first",
+                      "korean":  "먼저 실례하겠습니다",
+                      "examples":  {
+                                       "english":  "I use \"I will leave first\" in conversation.",
+                                       "korean":  "대화에서 \"먼저 실례하겠습니다\"를 사용해요.",
+                                       "japanese":  "会話で「お先に失礼します」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_097",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "確認してください",
+                      "english":  "please check",
+                      "korean":  "확인해 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please check\" in conversation.",
+                                       "korean":  "대화에서 \"확인해 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「確認してください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_098",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "少々お待ちください",
+                      "english":  "please wait a moment",
+                      "korean":  "잠시만 기다려 주세요",
+                      "examples":  {
+                                       "english":  "I use \"please wait a moment\" in conversation.",
+                                       "korean":  "대화에서 \"잠시만 기다려 주세요\"를 사용해요.",
+                                       "japanese":  "会話で「少々お待ちください」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_099",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "分かりましたか",
+                      "english":  "did you understand",
+                      "korean":  "이해했나요",
+                      "examples":  {
+                                       "english":  "I use \"did you understand\" in conversation.",
+                                       "korean":  "대화에서 \"이해했나요\"를 사용해요.",
+                                       "japanese":  "会話で「分かりましたか」を使います。"
+                                   }
+                  },
+                  {
+                      "id":  "expression_100",
+                      "category":  "expression",
+                      "categoryJa":  "日常表現",
+                      "difficulty":  1,
+                      "japanese":  "準備できました",
+                      "english":  "I am ready",
+                      "korean":  "준비됐어요",
+                      "examples":  {
+                                       "english":  "I use \"I am ready\" in conversation.",
+                                       "korean":  "대화에서 \"준비됐어요\"를 사용해요.",
+                                       "japanese":  "会話で「準備できました」を使います。"
+                                   }
+                  }
+              ]
+}
+;
