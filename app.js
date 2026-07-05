@@ -83,15 +83,16 @@
   const speechLang = { japanese: "ja-JP", english: "en-US", korean: "ko-KR" };
   const answerSound = {
     correct: [
-      { frequency: 784, duration: 0.08, gain: 0.11 },
-      { frequency: 988, duration: 0.08, gain: 0.12 },
-      { frequency: 1319, duration: 0.14, gain: 0.13 },
+      { frequency: 784, duration: 0.12, gain: 0.24 },
+      { frequency: 988, duration: 0.12, gain: 0.26 },
+      { frequency: 1319, duration: 0.22, gain: 0.28 },
     ],
     incorrect: [
-      { frequency: 220, duration: 0.12, gain: 0.09 },
-      { frequency: 165, duration: 0.18, gain: 0.08 },
+      { frequency: 220, duration: 0.16, gain: 0.22 },
+      { frequency: 165, duration: 0.24, gain: 0.2 },
     ],
   };
+  const answerSoundVolume = 1.6;
   const defaultSettings = {
     userName: "",
     defaultBaseLanguage: "english",
@@ -685,22 +686,41 @@
       const now = context.currentTime + 0.025;
       let cursor = now;
       answerSound[type].forEach((note) => {
-        const oscillator = context.createOscillator();
-        const gain = context.createGain();
-        oscillator.type = type === "correct" ? "sine" : "triangle";
-        oscillator.frequency.setValueAtTime(note.frequency, cursor);
-        gain.gain.setValueAtTime(0.0001, cursor);
-        gain.gain.exponentialRampToValueAtTime(note.gain, cursor + 0.018);
-        gain.gain.exponentialRampToValueAtTime(0.0001, cursor + note.duration);
-        oscillator.connect(gain);
-        gain.connect(context.destination);
-        oscillator.start(cursor);
-        oscillator.stop(cursor + note.duration + 0.03);
-        cursor += note.duration + 0.035;
+        playTone(context, {
+          frequency: note.frequency,
+          duration: note.duration,
+          gain: note.gain * answerSoundVolume,
+          startAt: cursor,
+          type,
+        });
+        cursor += note.duration + 0.045;
       });
     } catch {
       // Effect sounds are optional; quiz flow should continue if audio is blocked.
     }
+  }
+
+  function playTone(context, note) {
+    const masterGain = context.createGain();
+    masterGain.gain.setValueAtTime(0.0001, note.startAt);
+    masterGain.gain.exponentialRampToValueAtTime(Math.min(note.gain, 0.7), note.startAt + 0.02);
+    masterGain.gain.exponentialRampToValueAtTime(0.0001, note.startAt + note.duration);
+    masterGain.connect(context.destination);
+
+    [
+      { ratio: 1, level: 1 },
+      { ratio: 2, level: note.type === "correct" ? 0.34 : 0.18 },
+    ].forEach((voice) => {
+      const oscillator = context.createOscillator();
+      oscillator.type = note.type === "correct" ? "triangle" : "square";
+      oscillator.frequency.setValueAtTime(note.frequency * voice.ratio, note.startAt);
+      const voiceGain = context.createGain();
+      voiceGain.gain.setValueAtTime(voice.level, note.startAt);
+      oscillator.connect(voiceGain);
+      voiceGain.connect(masterGain);
+      oscillator.start(note.startAt);
+      oscillator.stop(note.startAt + note.duration + 0.04);
+    });
   }
 
   function speak(text, lang) {
