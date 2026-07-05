@@ -107,6 +107,7 @@
     defaultBaseLanguage: "english",
     defaultQuestionCount: 10,
     characterVisible: true,
+    textSize: "normal",
   };
   const defaultStats = () => ({
     studyCount: 0,
@@ -145,6 +146,7 @@
     bindEvents();
     fillTargetSelects();
     applySettingsToForms();
+    applyTextSize();
     refreshHome();
     showView("home");
   }
@@ -207,11 +209,13 @@
       userName: $("userNameInput").value.trim(),
       defaultBaseLanguage: $("baseLanguageSelect").value,
       defaultQuestionCount: Number($("questionCountSelect").value),
+      textSize: $("textSizeSelect").value,
       characterVisible: $("characterVisibleInput").checked,
     };
     saveJson(SETTINGS_KEY, settings);
     $("settingsDialog").close?.();
     applySettingsToForms();
+    applyTextSize();
     refreshHome();
     showToast("設定を保存しました。");
   }
@@ -253,10 +257,19 @@
     $("userNameInput").value = settings.userName || "";
     $("baseLanguageSelect").value = settings.defaultBaseLanguage;
     $("questionCountSelect").value = String(settings.defaultQuestionCount);
+    $("textSizeSelect").value = settings.textSize || "normal";
     $("characterVisibleInput").checked = settings.characterVisible;
     $("quizBaseLanguageSelect").value = settings.defaultBaseLanguage;
     $("quizQuestionCountSelect").value = String(settings.defaultQuestionCount);
     $("weakBaseLanguageSelect").value = settings.defaultBaseLanguage;
+  }
+
+  function applyTextSize() {
+    const size = ["normal", "large", "xlarge"].includes(settings.textSize) ? settings.textSize : "normal";
+    document.body.classList.remove("text-size-normal", "text-size-large", "text-size-xlarge");
+    document.documentElement.classList.remove("text-size-normal", "text-size-large", "text-size-xlarge");
+    document.body.classList.add(`text-size-${size}`);
+    document.documentElement.classList.add(`text-size-${size}`);
   }
 
   function fillTargetSelects() {

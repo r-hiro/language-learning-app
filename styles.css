@@ -18,6 +18,18 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
+html.text-size-large {
+  font-size: 18px;
+}
+
+html.text-size-xlarge {
+  font-size: 20px;
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -32,6 +44,15 @@ body {
     Meiryo,
     system-ui,
     sans-serif;
+  font-size: 1rem;
+}
+
+body.text-size-large {
+  font-size: 1rem;
+}
+
+body.text-size-xlarge {
+  font-size: 1rem;
 }
 
 button,
@@ -61,6 +82,11 @@ button {
   min-height: calc(100svh - 32px);
   flex-direction: column;
   gap: 16px;
+}
+
+body.text-size-large .view,
+body.text-size-xlarge .view {
+  min-height: auto;
 }
 
 .quiz-screen {
@@ -604,6 +630,11 @@ h1 {
   grid-template-columns: minmax(0, 1fr);
 }
 
+body.text-size-large .answer-columns,
+body.text-size-xlarge .answer-columns {
+  grid-template-columns: minmax(0, 1fr);
+}
+
 .answer-columns.single .candidate-button {
   min-height: 42px;
   font-size: 0.9rem;
@@ -615,6 +646,36 @@ h1 {
 
 .answer-columns.single .candidate-speak {
   min-height: 44px;
+}
+
+body.text-size-large .candidate-row,
+body.text-size-xlarge .candidate-row {
+  grid-template-columns: minmax(0, 1fr) 52px;
+}
+
+body.text-size-large .candidate-button,
+body.text-size-xlarge .candidate-button {
+  padding: 9px 10px;
+  font-size: 1rem;
+}
+
+body.text-size-large .candidate-button {
+  min-height: 58px;
+}
+
+body.text-size-xlarge .candidate-button {
+  min-height: 66px;
+}
+
+body.text-size-large .candidate-base,
+body.text-size-xlarge .candidate-base {
+  font-size: 0.82rem;
+}
+
+body.text-size-large .candidate-speak,
+body.text-size-xlarge .candidate-speak {
+  min-height: 52px;
+  font-size: 0.9rem;
 }
 
 .candidate-group {
@@ -805,6 +866,23 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 8px;
+}
+
+body.text-size-large .quick-status,
+body.text-size-xlarge .quick-status,
+body.text-size-large .stats-summary,
+body.text-size-xlarge .stats-summary {
+  grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+}
+
+body.text-size-large .primary-actions,
+body.text-size-xlarge .primary-actions {
+  gap: 10px;
+}
+
+body.text-size-large .action-button,
+body.text-size-xlarge .action-button {
+  min-height: 86px;
 }
 
 .stats-summary article {
@@ -1213,4 +1291,41 @@ h1 {
   .quiz-submit {
     min-height: 38px;
   }
+}
+
+body.text-size-large .candidate-button,
+body.text-size-xlarge .candidate-button {
+  padding: 9px 10px;
+  font-size: 1rem;
+}
+
+body.text-size-large .candidate-button {
+  min-height: 58px;
+}
+
+body.text-size-xlarge .candidate-button {
+  min-height: 66px;
+}
+
+body.text-size-large .candidate-row,
+body.text-size-xlarge .candidate-row {
+  grid-template-columns: minmax(0, 1fr) 58px;
+}
+
+body.text-size-large .candidate-speak,
+body.text-size-xlarge .candidate-speak {
+  font-size: 0.9rem;
+}
+
+body.text-size-large .candidate-speak {
+  min-height: 58px;
+}
+
+body.text-size-xlarge .candidate-speak {
+  min-height: 66px;
+}
+
+body.text-size-large .quiz-submit,
+body.text-size-xlarge .quiz-submit {
+  min-height: 52px;
 }
