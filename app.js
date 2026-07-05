@@ -81,6 +81,15 @@
     },
   };
   const speechLang = { japanese: "ja-JP", english: "en-US", korean: "ko-KR" };
+  const reactionExpression = {
+    excellent: "happy",
+    good: "smile",
+    recovery: "smile",
+    almostGood: "wonder",
+    almost: "wonder",
+    slipped: "sad",
+    support: "cry",
+  };
   const answerSound = {
     correct: [
       { frequency: 784, duration: 0.12, gain: 0.24 },
@@ -324,7 +333,7 @@
     $("exampleButton").disabled = true;
     $("examplePanel").classList.add("hidden");
     $("examplePanel").innerHTML = "";
-    updateQuizCharacter(base);
+    updateQuizCharacter(base, "normal");
     setQuizReactionClass("");
     renderCandidates(word);
   }
@@ -454,6 +463,7 @@
     const className = `reaction-${reaction.replace(/[A-Z]/g, (letter) => `-${letter.toLowerCase()}`)}`;
     helper.classList.add(className);
     character.classList.add(className);
+    updateQuizCharacter(quiz.baseLanguage, reactionExpression[reaction] || "normal");
   }
 
   function nextQuestion() {
@@ -633,12 +643,15 @@
     $(labelId).textContent = `${labels[lang].japanese}担当`;
   }
 
-  function updateQuizCharacter(lang) {
+  function updateQuizCharacter(lang, expression = "normal") {
     const helper = $("quizHelper");
     const character = $("quizCharacter");
+    const image = $("quizCharacterImage");
     helper.classList.toggle("hidden", !settings.characterVisible);
     character.classList.remove("character-japanese", "character-english", "character-korean");
     character.classList.add(`character-${lang}`);
+    image.src = `assets/characters/${lang}-${expression}.png`;
+    image.alt = `${labels[lang].japanese}担当キャラクター ${expression}`;
   }
 
   function prepareAnswerSoundOnFirstGesture() {
