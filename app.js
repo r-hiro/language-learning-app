@@ -81,6 +81,16 @@
     },
   };
   const speechLang = { japanese: "ja-JP", english: "en-US", korean: "ko-KR" };
+  const answerSound = {
+    correct: [
+      { frequency: 660, duration: 0.08 },
+      { frequency: 880, duration: 0.12 },
+    ],
+    incorrect: [
+      { frequency: 260, duration: 0.1 },
+      { frequency: 190, duration: 0.16 },
+    ],
+  };
   const defaultSettings = {
     userName: "",
     defaultBaseLanguage: "english",
@@ -101,6 +111,7 @@
   let stats = normalizeStats(loadJson(STATS_KEY, defaultStats()));
   let quiz = null;
   let toastTimer = 0;
+  let audioContext = null;
 
   const $ = (id) => document.getElementById(id);
   const views = {
@@ -374,6 +385,7 @@
       if (correct) correctTargets += 1;
     });
     const allCorrect = correctTargets === quiz.targets.length;
+    playAnswerSound(allCorrect ? "correct" : "incorrect");
     quiz.results.push({ wordId: word.id, perLanguage, allCorrect });
     updateStatsForAnswer(word, perLanguage, allCorrect, quiz.isWeakMode);
     renderGradedCandidates(word);
@@ -623,6 +635,33 @@
     helper.classList.toggle("hidden", !settings.characterVisible);
     character.classList.remove("character-japanese", "character-english", "character-korean");
     character.classList.add(`character-${lang}`);
+  }
+
+  function playAnswerSound(type) {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) return;
+    try {
+      audioContext ||= new AudioContext();
+      if (audioContext.state === "suspended") audioContext.resume();
+      const now = audioContext.currentTime;
+      let cursor = now;
+      answerSound[type].forEach((note) => {
+        const oscillator = audioContext.createOscillator();
+        const gain = audioContext.createGain();
+        oscillator.type = type === "correct" ? "sine" : "triangle";
+        oscillator.frequency.setValueAtTime(note.frequency, cursor);
+        gain.gain.setValueAtTime(0.0001, cursor);
+        gain.gain.exponentialRampToValueAtTime(0.08, cursor + 0.015);
+        gain.gain.exponentialRampToValueAtTime(0.0001, cursor + note.duration);
+        oscillator.connect(gain);
+        gain.connect(audioContext.destination);
+        oscillator.start(cursor);
+        oscillator.stop(cursor + note.duration + 0.02);
+        cursor += note.duration + 0.025;
+      });
+    } catch {
+      // Effect sounds are optional; quiz flow should continue if audio is blocked.
+    }
   }
 
   function speak(text, lang) {
