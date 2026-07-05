@@ -83,12 +83,13 @@
   const speechLang = { japanese: "ja-JP", english: "en-US", korean: "ko-KR" };
   const answerSound = {
     correct: [
-      { frequency: 660, duration: 0.08 },
-      { frequency: 880, duration: 0.12 },
+      { frequency: 784, duration: 0.08, gain: 0.11 },
+      { frequency: 988, duration: 0.08, gain: 0.12 },
+      { frequency: 1319, duration: 0.14, gain: 0.13 },
     ],
     incorrect: [
-      { frequency: 260, duration: 0.1 },
-      { frequency: 190, duration: 0.16 },
+      { frequency: 220, duration: 0.12, gain: 0.09 },
+      { frequency: 165, duration: 0.18, gain: 0.08 },
     ],
   };
   const defaultSettings = {
@@ -112,6 +113,7 @@
   let quiz = null;
   let toastTimer = 0;
   let audioContext = null;
+  let answerSoundReady = false;
 
   const $ = (id) => document.getElementById(id);
   const views = {
@@ -138,6 +140,7 @@
   }
 
   function bindEvents() {
+    prepareAnswerSoundOnFirstGesture();
     $("settingsButton").addEventListener("click", openSettings);
     $("settingsForm").addEventListener("submit", saveSettings);
     $("startButton").addEventListener("click", () => openSetup(false));
@@ -637,27 +640,63 @@
     character.classList.add(`character-${lang}`);
   }
 
-  function playAnswerSound(type) {
+  function prepareAnswerSoundOnFirstGesture() {
+    const unlock = () => {
+      const context = getAudioContext();
+      if (!context || answerSoundReady) return;
+      resumeAudioContext(context);
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+      oscillator.frequency.setValueAtTime(440, context.currentTime);
+      gain.gain.setValueAtTime(0.0001, context.currentTime);
+      oscillator.connect(gain);
+      gain.connect(context.destination);
+      oscillator.start(context.currentTime);
+      oscillator.stop(context.currentTime + 0.015);
+      answerSoundReady = true;
+    };
+    document.addEventListener("pointerdown", unlock, { once: true, passive: true });
+    document.addEventListener("touchstart", unlock, { once: true, passive: true });
+    document.addEventListener("click", unlock, { once: true });
+  }
+
+  function getAudioContext() {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContext) return;
+    if (!AudioContext) return null;
     try {
-      audioContext ||= new AudioContext();
-      if (audioContext.state === "suspended") audioContext.resume();
-      const now = audioContext.currentTime;
+      if (!audioContext) audioContext = new AudioContext();
+      return audioContext;
+    } catch {
+      return null;
+    }
+  }
+
+  function resumeAudioContext(context) {
+    if (context.state === "suspended" && typeof context.resume === "function") {
+      context.resume().catch?.(() => {});
+    }
+  }
+
+  function playAnswerSound(type) {
+    const context = getAudioContext();
+    if (!context) return;
+    try {
+      resumeAudioContext(context);
+      const now = context.currentTime + 0.025;
       let cursor = now;
       answerSound[type].forEach((note) => {
-        const oscillator = audioContext.createOscillator();
-        const gain = audioContext.createGain();
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
         oscillator.type = type === "correct" ? "sine" : "triangle";
         oscillator.frequency.setValueAtTime(note.frequency, cursor);
         gain.gain.setValueAtTime(0.0001, cursor);
-        gain.gain.exponentialRampToValueAtTime(0.08, cursor + 0.015);
+        gain.gain.exponentialRampToValueAtTime(note.gain, cursor + 0.018);
         gain.gain.exponentialRampToValueAtTime(0.0001, cursor + note.duration);
         oscillator.connect(gain);
-        gain.connect(audioContext.destination);
+        gain.connect(context.destination);
         oscillator.start(cursor);
-        oscillator.stop(cursor + note.duration + 0.02);
-        cursor += note.duration + 0.025;
+        oscillator.stop(cursor + note.duration + 0.03);
+        cursor += note.duration + 0.035;
       });
     } catch {
       // Effect sounds are optional; quiz flow should continue if audio is blocked.
